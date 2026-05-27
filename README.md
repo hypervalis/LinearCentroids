@@ -2,9 +2,23 @@
 
 Exploratory demo extending ideas from [**The Linear Centroids Hypothesis**](https://arxiv.org/pdf/2604.11962) (Walker et al., 2026).
 
-We compare **MLP-input activation trajectories** and **MLP-local centroid trajectories** for simple concepts (starting with months) and analyze their geometry in full space before projecting to PCA.
+We compare **MLP-input activation trajectories** and **MLP-local centroid trajectories** for simple concepts and analyze their geometry in full space before projecting to PCA.
 
 > Exploratory interpretability demo — not a proof. See [docs/NOTES.md](docs/NOTES.md) and the live **[docs/index.html](docs/index.html)** viewer.
+
+## Repository layout
+
+```
+lce/                  # Core library (geometry, extraction, concepts, pipeline, CLI)
+  cli/                # `python -m lce` entry points
+  pipeline/           # Config-driven pipeline stages
+configs/              # One JSON config per experiment
+docs/                 # GitHub Pages site + generated experiment assets
+scripts/              # Thin wrappers around the CLI (optional)
+tests/
+data/prompts/         # Generated prompt files
+results/              # Local extraction outputs (mostly gitignored)
+```
 
 ## Terminology (v1)
 
@@ -15,108 +29,51 @@ We compare **MLP-input activation trajectories** and **MLP-local centroid trajec
 
 Not whole-model centroid or generic block centroid.
 
-**Token position (v1):** final token only. Prompts end with the month name (no trailing punctuation):
-
-```
-The month is January
-The calendar says January
-The event happens in January
-```
-
-## What is a centroid?
-
-For MLP input `h` and MLP output `f(h)`:
-
-```
-μ(h) = ∇_h Σ_k f(h)_k
-```
-
-Activations = *where* the token is represented; centroids = *local MLP computation* at that token.
-
-Centroid computation: **`lce.centroid_adapter.compute_centroid` only**.
-
-## Cyclic vs linear geometry
-
-**Months** are **cyclic ordinal** (December→January closes the loop). For cycles, **lower curvature is not automatically better** — a clean month ring should show **stable curvature**, **even edges**, **closure ≈ typical edge**, and **high adjacent-neighbour accuracy**.
-
-**Linear ordinal** concepts (future: years) use `geometry_kind="linear"` — no closure edge.
+**Token position (v1):** final token only, with a tokenizer audit.
 
 ## Setup
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -e ".[dev]"
+lce check-environment
 ```
 
-### Third-party paper code
+Optional paper submodule:
 
 ```bash
 git submodule add https://github.com/ThomasWalker1/LinearCentroidsHypothesis.git third_party/LinearCentroidsHypothesis
 git submodule update --init --recursive
 ```
 
-## Full pipeline (DistilGPT-2 months)
+## CLI
 
-Run extraction on a CUDA machine (recommended: Ubuntu GPU host):
-
-```bash
-python scripts/01b_audit_tokens.py
-python scripts/02_extract_activations_centroids.py --config configs/months_distilgpt2.json
-python scripts/03_compute_geometry.py --config configs/months_distilgpt2.json
-python scripts/04_make_plots.py --config configs/months_distilgpt2.json
-python scripts/05_build_site.py --config configs/months_distilgpt2.json
-```
-
-Quick demo subset (layers 0, 3, 5): use `configs/months_distilgpt2_demo.json`.
-
-### Colour ordering topology (scaffolding)
+All pipeline stages are config-driven:
 
 ```bash
-python scripts/01c_generate_colour_prompts.py
-python scripts/02_extract_activations_centroids.py --config configs/colours_distilgpt2.json
-python scripts/06_colour_ordering_metrics.py --config configs/colours_distilgpt2.json
-python scripts/07_colour_make_plots.py --config configs/colours_distilgpt2.json --sync-docs
+lce generate-prompts --config configs/months_distilgpt2.json
+lce audit-tokens
+lce extract --config configs/months_distilgpt2.json
+lce compute-geometry --config configs/months_distilgpt2.json   # months only
+lce make-plots --config configs/months_distilgpt2.json --sync-docs
+lce build-site --config configs/months_distilgpt2.json
 ```
 
-### Random nouns (no natural order — random baseline control)
-
-Seven unrelated nouns; one arbitrary `list_order` compared to random permutations.
+Ordering experiments (colours, nouns, tools, animals, years, …):
 
 ```bash
-python scripts/01d_generate_noun_prompts.py
-python scripts/02_extract_activations_centroids.py --config configs/nouns_distilgpt2.json
-python scripts/08_noun_ordering_metrics.py --config configs/nouns_distilgpt2.json
-python scripts/09_noun_make_plots.py --config configs/nouns_distilgpt2.json --sync-docs
+lce generate-prompts --config configs/colours_distilgpt2.json
+lce extract --config configs/colours_distilgpt2.json
+lce ordering-metrics --config configs/colours_distilgpt2.json
+lce make-plots --config configs/colours_distilgpt2.json --sync-docs
 ```
 
-### Tools (imposed list order — related objects)
+Equivalent thin wrappers live under `scripts/` (e.g. `python scripts/extract.py --config …`).
 
-Ten common tools in a fixed list order, compared to random permutations.
+Run extraction on a CUDA machine when possible. Configs live in `configs/`; outputs under `results/` and synced plots under `docs/experiments/<experiment>/`.
 
-```bash
-python scripts/01e_generate_tool_prompts.py
-python scripts/02_extract_activations_centroids.py --config configs/tools_distilgpt2.json
-python scripts/10_tool_ordering_metrics.py --config configs/tools_distilgpt2.json
-python scripts/11_tool_make_plots.py --config configs/tools_distilgpt2.json --sync-docs
-```
-
-### Animals (imposed list order — diverse species)
-
-Twelve animals in a fixed list order, compared to random permutations.
-
-```bash
-python scripts/01f_generate_animal_prompts.py
-python scripts/02_extract_activations_centroids.py --config configs/animals_distilgpt2.json
-python scripts/12_animal_ordering_metrics.py --config configs/animals_distilgpt2.json
-python scripts/13_animal_make_plots.py --config configs/animals_distilgpt2.json --sync-docs
-```
-
-See [docs/index.html](docs/index.html) for the interactive viewer and notes.
-
-Outputs land under `results/`; GitHub Pages assets under `docs/experiments/<experiment>/`.
-
-Preview locally: `python -m http.server -d docs 8000` → http://localhost:8000
+Preview locally: `python -m http.server -d docs 8765` → http://localhost:8765/index.html
 
 ## Key metrics
 
@@ -125,36 +82,18 @@ Preview locally: `python -m http.server -d docs 8000` → http://localhost:8000
 | `edge_lengths` | Step sizes; cyclic includes Dec→Jan |
 | `edge_length_cv` | Even spacing |
 | `closure_to_edge_ratio` | Dec→Jan vs mean other edges (~1 for clean cycle) |
-| `closure_to_path_ratio` | Closure vs total open arc |
-| `curvature_smoothness_*` | Stable bending (not “low κ”) |
-| `adjacent_neighbour_accuracy` | Embedding respects month order |
-| `ρ_d, ρ_T, ρ_N` | PCA visibility |
-| `tangent_alignment_full_vs_pca`, `normal_alignment_full_vs_pca` | PCA geometric fidelity |
+| `ρ_d, ρ_T, ρ_N` | PCA visibility of full-space geometry |
 | `template_variance` | Prompt sensitivity (activation vs centroid) |
 
-Full definitions: [docs/index.html](docs/index.html) · [docs/NOTES.md](docs/NOTES.md)
+Full definitions: [docs/index.html](docs/index.html) · [docs/NOTES.md](docs/NOTES.md) · [docs/DECISIONS.md](docs/DECISIONS.md)
 
-**No composite winner score** — exploratory panels only. Details: [docs/DECISIONS.md](docs/DECISIONS.md), [docs/NOTES.md](docs/NOTES.md).
+**No composite winner score** — exploratory panels only.
 
-## Pipeline
+## Tests
 
-| Script | Purpose |
-|--------|---------|
-| `00_check_environment.py` | Dependencies + submodule |
-| `01_generate_prompts.py` | Month prompts JSON |
-| `01b_audit_tokens.py` | Tokenizer audit (fail if final token ∉ month) |
-| `02_extract_activations_centroids.py` | ln_2 + MLP-local centroid on GPU (TODO) |
-| `03_compute_geometry.py` | Geometry on template means |
-| `04_make_plots.py` | Plotly panels (TODO) |
-| `05_build_site.py` | GitHub Pages `docs/` |
-| `01c_generate_colour_prompts.py` | Colour prompts JSONL |
-| `01d_generate_noun_prompts.py` | Random noun prompts JSONL |
-| `06_colour_ordering_metrics.py` | Colour ordering vs random baselines |
-| `07_colour_make_plots.py` | Colour PCA path plots |
-| `08_noun_ordering_metrics.py` | Noun list order vs random baselines |
-| `09_noun_make_plots.py` | Noun PCA path plots |
-
-Full extraction: layers `[0..5]`; demo subset `[0,3,5]` in `configs/months_distilgpt2_demo.json`.
+```bash
+pytest
+```
 
 ## Citation
 

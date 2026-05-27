@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linear-centroid-experiments"
+version = "0.1.0"
+description = "Exploratory demo extending the Linear Centroids Hypothesis"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [{ name = "Angus Hoy" }]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "scikit-learn>=1.3",
+  "plotly>=5.18",
+  "pandas>=2.0",
+  "torch>=2.0",
+  "transformers>=4.40",
+  "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4"]
+
+[project.scripts]
+lce = "lce.cli.main:main"
+
+[tool.setuptools.packages.find]
+include = ["lce*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
