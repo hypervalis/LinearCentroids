@@ -1,0 +1,1233 @@
+{
+  "experiment": "stopwords_distilgpt2",
+  "layers": {
+    "0": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.090909090909091,
+                "percentile": 1.0,
+                "random_mean": 5.996545454545454,
+                "random_std": 0.7976025854380868
+              },
+              "path_energy": {
+                "observed": 67.4038135460746,
+                "percentile": 0.999,
+                "random_mean": 82.37610755827947,
+                "random_std": 4.209589952067737
+              },
+              "path_length": {
+                "observed": 26.613766427594072,
+                "percentile": 0.999,
+                "random_mean": 29.870249913584704,
+                "random_std": 0.8913134141367197
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2090909090909091,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.21633729758776243,
+              "edge_lengths": [
+                1.8902949486269842,
+                1.2442585951998264,
+                2.946249386113469,
+                2.1856505615182575,
+                2.9496104522149604,
+                2.902465242802389,
+                1.9326845481657342,
+                2.4529828713781074,
+                2.5950360875254193,
+                2.823640793669316,
+                2.6908929403796105
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.3,
+                0.1,
+                0.0,
+                0.1,
+                0.4,
+                0.6,
+                0.0
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                9.0,
+                1.0,
+                4.0,
+                2.0,
+                1.0,
+                2.0,
+                5.0,
+                7.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.090909090909091,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 67.4038135460746,
+              "path_length": 26.613766427594072
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.8181818181818183,
+                "percentile": 0.998,
+                "random_mean": 5.997818181818182,
+                "random_std": 0.6287034014081273
+              },
+              "path_energy": {
+                "observed": 3029.0917046107616,
+                "percentile": 1.0,
+                "random_mean": 3893.188203163969,
+                "random_std": 213.2133433699868
+              },
+              "path_length": {
+                "observed": 177.25714897812358,
+                "percentile": 1.0,
+                "random_mean": 204.1802369727327,
+                "random_std": 6.386563124017754
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2818181818181818,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.24590251478149996,
+              "edge_lengths": [
+                11.36499791199987,
+                9.771539686574028,
+                19.79345321484114,
+                15.404832777297514,
+                20.10458480567494,
+                19.129848402947207,
+                12.027034466591578,
+                14.858007045155626,
+                13.609398087973691,
+                18.84536530327113,
+                22.348087275796846
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.4,
+                0.1,
+                0.5,
+                0.2,
+                0.0,
+                0.2,
+                0.0,
+                0.9,
+                0.8
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                5.0,
+                2.0,
+                6.0,
+                3.0,
+                1.0,
+                3.0,
+                1.0,
+                10.0,
+                9.0
+              ],
+              "mean_edge_rank": 3.8181818181818183,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 3029.0917046107616,
+              "path_length": 177.25714897812358
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "1": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.6363636363636362,
+                "percentile": 0.998,
+                "random_mean": 6.026727272727272,
+                "random_std": 0.7489472721953967
+              },
+              "path_energy": {
+                "observed": 111.83520007712875,
+                "percentile": 0.999,
+                "random_mean": 135.78505606007553,
+                "random_std": 6.628896931503036
+              },
+              "path_length": {
+                "observed": 34.41277998679185,
+                "percentile": 0.999,
+                "random_mean": 38.35860071434887,
+                "random_std": 1.0540150098404852
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2636363636363636,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19697562278140543,
+              "edge_lengths": [
+                2.4819299608828116,
+                1.8300878301878984,
+                3.7573446922741396,
+                2.844987723676298,
+                3.9344632730673013,
+                3.9888594794401313,
+                2.8462653724917946,
+                3.0950521370688486,
+                2.946423200151597,
+                3.3659170649205166,
+                3.321449252630509
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.7,
+                0.0,
+                0.7,
+                0.5,
+                0.0,
+                0.1,
+                0.1,
+                0.5,
+                0.3
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                8.0,
+                1.0,
+                8.0,
+                6.0,
+                1.0,
+                2.0,
+                2.0,
+                6.0,
+                4.0
+              ],
+              "mean_edge_rank": 3.6363636363636362,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 111.83520007712875,
+              "path_length": 34.41277998679185
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.090909090909091,
+                "percentile": 0.999,
+                "random_mean": 5.970181818181818,
+                "random_std": 0.8322548084064775
+              },
+              "path_energy": {
+                "observed": 8695.72651165618,
+                "percentile": 0.993,
+                "random_mean": 11980.941947120642,
+                "random_std": 1316.722162862757
+              },
+              "path_length": {
+                "observed": 294.03920936429756,
+                "percentile": 0.995,
+                "random_mean": 354.0684968444098,
+                "random_std": 20.588893311377117
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.20909090909090908,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.3260959971395179,
+              "edge_lengths": [
+                22.52773357926756,
+                9.870610563414965,
+                37.027452777613114,
+                21.346124540843483,
+                30.239456133825744,
+                30.096159130924416,
+                20.278258083466127,
+                26.923717464805478,
+                23.683363449834943,
+                44.728707351959024,
+                27.317626288342723
+              ],
+              "edge_rank_percentiles": [
+                0.1,
+                0.0,
+                0.6,
+                0.0,
+                0.4,
+                0.1,
+                0.0,
+                0.2,
+                0.0,
+                0.9,
+                0.0
+              ],
+              "edge_ranks": [
+                2.0,
+                1.0,
+                7.0,
+                1.0,
+                5.0,
+                2.0,
+                1.0,
+                3.0,
+                1.0,
+                10.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.090909090909091,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 8695.72651165618,
+              "path_length": 294.03920936429756
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "2": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.727272727272727,
+                "percentile": 1.0,
+                "random_mean": 6.024818181818181,
+                "random_std": 0.7206543800860368
+              },
+              "path_energy": {
+                "observed": 169.5758543165094,
+                "percentile": 0.999,
+                "random_mean": 203.0284409503774,
+                "random_std": 9.767563053474275
+              },
+              "path_length": {
+                "observed": 42.298717596210444,
+                "percentile": 1.0,
+                "random_mean": 46.881179319758864,
+                "random_std": 1.2847240228006247
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2727272727272727,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.206307960611152,
+              "edge_lengths": [
+                2.875218655091557,
+                2.1667239612970843,
+                4.560337790807128,
+                3.6178547306201163,
+                4.932796579610926,
+                4.942135008685785,
+                3.4671071078423097,
+                3.956699503170825,
+                3.775558266884641,
+                4.05739294941237,
+                3.9468930427877083
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.7,
+                0.0,
+                0.8,
+                0.7,
+                0.0,
+                0.1,
+                0.0,
+                0.4,
+                0.3
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                8.0,
+                1.0,
+                9.0,
+                8.0,
+                1.0,
+                2.0,
+                1.0,
+                5.0,
+                4.0
+              ],
+              "mean_edge_rank": 3.727272727272727,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 169.5758543165094,
+              "path_length": 42.298717596210444
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.090909090909091,
+                "percentile": 0.98,
+                "random_mean": 5.95409090909091,
+                "random_std": 0.8523374520877309
+              },
+              "path_energy": {
+                "observed": 11303.328101287127,
+                "percentile": 0.995,
+                "random_mean": 14705.40692973018,
+                "random_std": 1090.718453070597
+              },
+              "path_length": {
+                "observed": 334.8272009452178,
+                "percentile": 0.997,
+                "random_mean": 395.9920579726107,
+                "random_std": 17.827614668658256
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3090909090909091,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.33025204964966326,
+              "edge_lengths": [
+                21.601992511856306,
+                9.057920079081404,
+                40.65685545562315,
+                22.972710100275506,
+                35.45066732877198,
+                44.17867927230027,
+                21.2855471274647,
+                32.13440982042556,
+                32.905803784027995,
+                40.08731246537365,
+                34.49530300001727
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.1,
+                1.0,
+                0.0,
+                0.1,
+                0.2,
+                0.8,
+                0.4
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                9.0,
+                1.0,
+                2.0,
+                11.0,
+                1.0,
+                2.0,
+                3.0,
+                9.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.090909090909091,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 11303.328101287127,
+              "path_length": 334.8272009452178
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "3": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.4545454545454546,
+                "percentile": 1.0,
+                "random_mean": 6.025363636363636,
+                "random_std": 0.7328150127932742
+              },
+              "path_energy": {
+                "observed": 175.35925874569526,
+                "percentile": 1.0,
+                "random_mean": 216.8226481011023,
+                "random_std": 11.645987765291158
+              },
+              "path_length": {
+                "observed": 42.935740742950784,
+                "percentile": 1.0,
+                "random_mean": 48.382770600833844,
+                "random_std": 1.472384305855854
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.24545454545454543,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.21532680057989914,
+              "edge_lengths": [
+                2.82454524697028,
+                2.1451500339244234,
+                4.80825979946817,
+                3.5626740625689557,
+                4.870603775821528,
+                4.8523637699754865,
+                3.412865887621259,
+                4.118846007291339,
+                4.187660123100652,
+                4.474142797114306,
+                3.678629239094389
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.8,
+                0.0,
+                0.2,
+                0.7,
+                0.0,
+                0.1,
+                0.4,
+                0.3,
+                0.2
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                9.0,
+                1.0,
+                3.0,
+                8.0,
+                1.0,
+                2.0,
+                5.0,
+                4.0,
+                3.0
+              ],
+              "mean_edge_rank": 3.4545454545454546,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 175.35925874569526,
+              "path_length": 42.935740742950784
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5454545454545454,
+                "percentile": 0.999,
+                "random_mean": 5.981818181818182,
+                "random_std": 0.7548411249838883
+              },
+              "path_energy": {
+                "observed": 14377.708447890049,
+                "percentile": 0.999,
+                "random_mean": 19949.81934562083,
+                "random_std": 1539.0738067853495
+              },
+              "path_length": {
+                "observed": 378.99752850786973,
+                "percentile": 1.0,
+                "random_mean": 460.16911709236604,
+                "random_std": 21.148852225076112
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2545454545454545,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.31789383830457024,
+              "edge_lengths": [
+                25.812594559247504,
+                11.555284713131243,
+                47.91843821796821,
+                28.396284385150974,
+                43.23485791272638,
+                46.89590064059102,
+                23.93050376841717,
+                37.79181695039585,
+                38.00435540390707,
+                45.3034296874694,
+                30.154062268864877
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.9,
+                0.0,
+                0.1,
+                0.8,
+                0.0,
+                0.1,
+                0.6,
+                0.3,
+                0.0
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                10.0,
+                1.0,
+                2.0,
+                9.0,
+                1.0,
+                2.0,
+                7.0,
+                4.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.5454545454545454,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 14377.708447890049,
+              "path_length": 378.99752850786973
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "4": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5454545454545454,
+                "percentile": 1.0,
+                "random_mean": 5.990454545454545,
+                "random_std": 0.6823511553251403
+              },
+              "path_energy": {
+                "observed": 188.1727430247921,
+                "percentile": 0.999,
+                "random_mean": 225.18352157421458,
+                "random_std": 11.296109442585829
+              },
+              "path_length": {
+                "observed": 44.65624626612739,
+                "percentile": 0.999,
+                "random_mean": 49.298643217833494,
+                "random_std": 1.3440883870468825
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2545454545454545,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19485997269776442,
+              "edge_lengths": [
+                2.773339724800769,
+                2.919812681610439,
+                5.068239518291922,
+                3.7082418786682423,
+                4.802564012098588,
+                4.855163791942577,
+                3.704481819601498,
+                4.200873656889745,
+                4.626623895824057,
+                4.7498702140019295,
+                3.2470350723976122
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.1,
+                0.8,
+                0.0,
+                0.1,
+                0.7,
+                0.0,
+                0.1,
+                0.7,
+                0.3,
+                0.0
+              ],
+              "edge_ranks": [
+                1.0,
+                2.0,
+                9.0,
+                1.0,
+                2.0,
+                8.0,
+                1.0,
+                2.0,
+                8.0,
+                4.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.5454545454545454,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 188.1727430247921,
+              "path_length": 44.65624626612739
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.4545454545454546,
+                "percentile": 0.996,
+                "random_mean": 5.951,
+                "random_std": 0.8434701981733627
+              },
+              "path_energy": {
+                "observed": 25524.081196943327,
+                "percentile": 1.0,
+                "random_mean": 33138.17377297197,
+                "random_std": 2117.8165361485585
+              },
+              "path_length": {
+                "observed": 518.5513036418492,
+                "percentile": 1.0,
+                "random_mean": 598.52318497448,
+                "random_std": 21.718562333871493
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.24545454545454543,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.21009869736448997,
+              "edge_lengths": [
+                36.89224952870106,
+                25.23052840152326,
+                60.84143035146626,
+                40.87888913316636,
+                50.19674990094564,
+                53.59000890268802,
+                43.25140347455694,
+                55.250700859546775,
+                52.96541616225215,
+                56.35631605714169,
+                43.09761086986116
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.1,
+                0.6,
+                0.0,
+                0.2,
+                0.4,
+                0.4,
+                0.0
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                11.0,
+                1.0,
+                2.0,
+                7.0,
+                1.0,
+                3.0,
+                5.0,
+                5.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.4545454545454546,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 25524.081196943327,
+              "path_length": 518.5513036418492
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "5": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.0,
+                "percentile": 1.0,
+                "random_mean": 5.976545454545454,
+                "random_std": 0.671826399260852
+              },
+              "path_energy": {
+                "observed": 168.71783514188712,
+                "percentile": 0.99,
+                "random_mean": 191.9136835942426,
+                "random_std": 9.127183762580893
+              },
+              "path_length": {
+                "observed": 42.30556731331411,
+                "percentile": 0.994,
+                "random_mean": 45.509594178777434,
+                "random_std": 1.163476464156526
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.30000000000000004,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19222890135784337,
+              "edge_lengths": [
+                2.838886710450856,
+                3.6019021630854393,
+                4.493891359453284,
+                3.113205975528491,
+                4.127014343979153,
+                4.364025876388544,
+                3.4851673041063638,
+                3.865730106471241,
+                4.897765567634404,
+                4.850413275831833,
+                2.6675646303844998
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.2,
+                0.6,
+                0.0,
+                0.3,
+                0.8,
+                0.0,
+                0.2,
+                1.0,
+                0.2,
+                0.0
+              ],
+              "edge_ranks": [
+                1.0,
+                3.0,
+                7.0,
+                1.0,
+                4.0,
+                9.0,
+                1.0,
+                3.0,
+                11.0,
+                3.0,
+                1.0
+              ],
+              "mean_edge_rank": 4.0,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 168.71783514188712,
+              "path_length": 42.30556731331411
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.727272727272727,
+                "percentile": 0.998,
+                "random_mean": 6.016363636363636,
+                "random_std": 0.8261010683969677
+              },
+              "path_energy": {
+                "observed": 121607.78513819235,
+                "percentile": 0.999,
+                "random_mean": 170158.94230105568,
+                "random_std": 13936.335298133914
+              },
+              "path_length": {
+                "observed": 1128.9895056211587,
+                "percentile": 0.999,
+                "random_mean": 1349.5186398368287,
+                "random_std": 60.97791307686737
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.27272727272727276,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.2224414769580354,
+              "edge_lengths": [
+                81.98276967548846,
+                67.35972354368363,
+                132.16414665052355,
+                74.95053384536496,
+                103.59760065634582,
+                108.93238427181208,
+                90.0925368294657,
+                104.18782707139663,
+                130.52398633988358,
+                139.94042315877417,
+                95.25757357842039
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.6,
+                0.0,
+                0.2,
+                0.4,
+                0.0,
+                0.1,
+                0.8,
+                0.8,
+                0.1
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                7.0,
+                1.0,
+                3.0,
+                5.0,
+                1.0,
+                2.0,
+                9.0,
+                9.0,
+                2.0
+              ],
+              "mean_edge_rank": 3.727272727272727,
+              "ordering": [
+                "the",
+                "a",
+                "an",
+                "and",
+                "or",
+                "but",
+                "in",
+                "on",
+                "to",
+                "of",
+                "is",
+                "it"
+              ],
+              "path_energy": 121607.78513819235,
+              "path_length": 1128.9895056211587
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    }
+  },
+  "num_random": 1000,
+  "prompt_family": "neutral",
+  "summary_table": [
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 3.090909090909091,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.999,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 3.8181818181818183,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 1.0,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 3.6363636363636362,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.999,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 3.090909090909091,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.993,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 3.727272727272727,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.999,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 4.090909090909091,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.995,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 3.4545454545454546,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 1.0,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 3.5454545454545454,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.999,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 3.5454545454545454,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.999,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 3.4545454545454546,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 1.0,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 4.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.99,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 3.727272727272727,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.999,
+      "space": "centroid"
+    }
+  ]
+}

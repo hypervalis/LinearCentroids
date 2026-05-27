@@ -1,0 +1,677 @@
+{
+  "experiment": "colours_distilgpt2",
+  "figures": [
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_activation_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_00_activation_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_00_activation_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_00_activation_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_activation_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_activation_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_activation_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_centroid_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_00_centroid_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_00_centroid_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_00_centroid_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_centroid_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_centroid_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_centroid_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_activation_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_01_activation_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_01_activation_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_01_activation_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_activation_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_activation_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_activation_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_centroid_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_01_centroid_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_01_centroid_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_01_centroid_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_centroid_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_centroid_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_centroid_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_activation_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_02_activation_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_02_activation_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_02_activation_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_activation_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_activation_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_activation_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_centroid_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_02_centroid_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_02_centroid_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_02_centroid_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_centroid_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_centroid_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_centroid_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_activation_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_03_activation_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_03_activation_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_03_activation_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_activation_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_activation_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_activation_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_centroid_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_03_centroid_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_03_centroid_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_03_centroid_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_centroid_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_centroid_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_centroid_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_activation_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_04_activation_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_04_activation_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_04_activation_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_activation_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_activation_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_activation_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_centroid_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_04_centroid_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_04_centroid_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_04_centroid_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_centroid_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_centroid_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_centroid_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_activation_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_05_activation_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_05_activation_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_05_activation_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_activation_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_activation_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_activation_light_to_dark_approx_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_centroid_roygbiv_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "roygbiv",
+      "mode": "cyclic_diagnostic",
+      "cyclic": true,
+      "path": "layer_05_centroid_roygbiv_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "cyclic",
+      "cyclic": true,
+      "path": "layer_05_centroid_hue_wheel_approx_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "hue_wheel_approx",
+      "mode": "non_cyclic_diagnostic",
+      "cyclic": false,
+      "path": "layer_05_centroid_hue_wheel_approx_non_cyclic_diagnostic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "basic_colours",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_centroid_basic_colours_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "warm_to_cool",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_centroid_warm_to_cool_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "light_to_dark_approx",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_centroid_light_to_dark_approx_non_cyclic.html"
+    }
+  ]
+}

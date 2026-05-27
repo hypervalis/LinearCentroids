@@ -1,0 +1,13 @@
+{
+  "extends": "months_distilgpt2",
+  "experiment": "months_distilgpt2_demo",
+  "hook": {
+    "layers": [0, 3, 5]
+  },
+  "output": {
+    "raw_dir": "results/raw/months_distilgpt2_demo",
+    "geometry_dir": "results/geometry/months_distilgpt2_demo",
+    "metrics_dir": "results/metrics/months_distilgpt2_demo",
+    "plots_dir": "results/plots/months_distilgpt2_demo"
+  }
+}

@@ -1,0 +1,1233 @@
+{
+  "experiment": "languages_distilgpt2",
+  "layers": {
+    "0": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.545454545454546,
+                "percentile": 0.157,
+                "random_mean": 5.993454545454546,
+                "random_std": 0.5015580353358097
+              },
+              "path_energy": {
+                "observed": 162.74578287103932,
+                "percentile": 0.481,
+                "random_mean": 161.6002805705258,
+                "random_std": 4.976070277077153
+              },
+              "path_length": {
+                "observed": 41.83990577613283,
+                "percentile": 0.511,
+                "random_mean": 41.779248578832664,
+                "random_std": 0.6419795583312989
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5545454545454546,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.15045230686296943,
+              "edge_lengths": [
+                3.3508973914885916,
+                3.177014028971297,
+                3.8901808687124704,
+                4.042410754155318,
+                4.107588517153003,
+                3.743201721376534,
+                4.846030696217087,
+                4.750889439394618,
+                3.044178982932648,
+                3.333061050854987,
+                3.5544523248762703
+              ],
+              "edge_rank_percentiles": [
+                0.5,
+                0.0,
+                0.8,
+                0.9,
+                0.7,
+                0.8,
+                1.0,
+                0.5,
+                0.1,
+                0.4,
+                0.4
+              ],
+              "edge_ranks": [
+                6.0,
+                1.0,
+                9.0,
+                10.0,
+                8.0,
+                9.0,
+                11.0,
+                6.0,
+                2.0,
+                5.0,
+                5.0
+              ],
+              "mean_edge_rank": 6.545454545454546,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 162.74578287103932,
+              "path_length": 41.83990577613283
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.818181818181818,
+                "percentile": 0.598,
+                "random_mean": 5.946272727272728,
+                "random_std": 0.7225283831537761
+              },
+              "path_energy": {
+                "observed": 12269.349892314234,
+                "percentile": 0.432,
+                "random_mean": 12111.81395956742,
+                "random_std": 805.0889981830046
+              },
+              "path_length": {
+                "observed": 359.00339619264196,
+                "percentile": 0.448,
+                "random_mean": 357.32258140976035,
+                "random_std": 11.344452425848122
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4818181818181817,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.21718617250803798,
+              "edge_lengths": [
+                28.83049433462626,
+                30.55395945519415,
+                27.881904284771657,
+                40.64708679357846,
+                37.62611404395032,
+                28.289016035434795,
+                42.58772088062246,
+                45.16884378058859,
+                24.215780482629476,
+                25.290753716755418,
+                27.911722384490336
+              ],
+              "edge_rank_percentiles": [
+                0.8,
+                0.2,
+                0.5,
+                0.9,
+                0.0,
+                0.4,
+                1.0,
+                0.9,
+                0.1,
+                0.1,
+                0.4
+              ],
+              "edge_ranks": [
+                9.0,
+                3.0,
+                6.0,
+                10.0,
+                1.0,
+                5.0,
+                11.0,
+                10.0,
+                2.0,
+                2.0,
+                5.0
+              ],
+              "mean_edge_rank": 5.818181818181818,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 12269.349892314234,
+              "path_length": 359.00339619264196
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "1": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.181818181818182,
+                "percentile": 0.392,
+                "random_mean": 6.000818181818182,
+                "random_std": 0.5533587824809147
+              },
+              "path_energy": {
+                "observed": 217.20454745440577,
+                "percentile": 0.574,
+                "random_mean": 218.27593517415278,
+                "random_std": 5.794297514572101
+              },
+              "path_length": {
+                "observed": 48.555964031239355,
+                "percentile": 0.623,
+                "random_mean": 48.77152826497008,
+                "random_std": 0.6661244103506657
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5181818181818181,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.11571337476302698,
+              "edge_lengths": [
+                3.8980046035772586,
+                3.645874464411028,
+                4.6174986969460665,
+                5.1724042994670665,
+                5.107798194396076,
+                4.322421635290477,
+                4.858400281888061,
+                4.665179446661179,
+                3.6232427395563214,
+                4.274326460353331,
+                4.3708132086924865
+              ],
+              "edge_rank_percentiles": [
+                0.2,
+                0.0,
+                0.8,
+                1.0,
+                0.7,
+                0.6,
+                1.0,
+                0.3,
+                0.1,
+                0.8,
+                0.2
+              ],
+              "edge_ranks": [
+                3.0,
+                1.0,
+                9.0,
+                11.0,
+                8.0,
+                7.0,
+                11.0,
+                4.0,
+                2.0,
+                9.0,
+                3.0
+              ],
+              "mean_edge_rank": 6.181818181818182,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 217.20454745440577,
+              "path_length": 48.555964031239355
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.2727272727272725,
+                "percentile": 0.39,
+                "random_mean": 5.980272727272727,
+                "random_std": 0.7803893444464884
+              },
+              "path_energy": {
+                "observed": 23636.342430114364,
+                "percentile": 0.778,
+                "random_mean": 28021.792121513776,
+                "random_std": 5603.819194491783
+              },
+              "path_length": {
+                "observed": 484.98906893837625,
+                "percentile": 0.695,
+                "random_mean": 509.3700772691758,
+                "random_std": 47.41674518996957
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5272727272727273,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.32461288221415197,
+              "edge_lengths": [
+                42.800944840414466,
+                44.674932459734535,
+                28.207952926540816,
+                57.47504873986276,
+                30.14078639331786,
+                34.515642527770346,
+                53.91769945871993,
+                80.07147924458394,
+                40.67988754160514,
+                34.274115496009266,
+                38.23057930981724
+              ],
+              "edge_rank_percentiles": [
+                0.6,
+                0.4,
+                0.3,
+                0.8,
+                0.0,
+                0.4,
+                0.9,
+                0.9,
+                0.4,
+                0.5,
+                0.6
+              ],
+              "edge_ranks": [
+                7.0,
+                5.0,
+                4.0,
+                9.0,
+                1.0,
+                5.0,
+                10.0,
+                10.0,
+                5.0,
+                6.0,
+                7.0
+              ],
+              "mean_edge_rank": 6.2727272727272725,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 23636.342430114364,
+              "path_length": 484.98906893837625
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "2": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.636363636363637,
+                "percentile": 0.758,
+                "random_mean": 6.021181818181818,
+                "random_std": 0.6047245872678578
+              },
+              "path_energy": {
+                "observed": 213.14056184791198,
+                "percentile": 0.584,
+                "random_mean": 214.22024100718397,
+                "random_std": 5.8340207904501
+              },
+              "path_length": {
+                "observed": 48.09758971652196,
+                "percentile": 0.626,
+                "random_mean": 48.31293985016718,
+                "random_std": 0.676365269907427
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4636363636363636,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.11607306681562515,
+              "edge_lengths": [
+                3.9248777329161904,
+                3.6429101781101574,
+                4.5773799718145645,
+                5.232832757539315,
+                5.109616032937688,
+                4.188406518535713,
+                4.7318553637167025,
+                4.584236041785752,
+                3.648234291317307,
+                4.255831588836217,
+                4.201409239012359
+              ],
+              "edge_rank_percentiles": [
+                0.5,
+                0.0,
+                0.8,
+                1.0,
+                0.6,
+                0.4,
+                0.9,
+                0.1,
+                0.0,
+                0.7,
+                0.1
+              ],
+              "edge_ranks": [
+                6.0,
+                1.0,
+                9.0,
+                11.0,
+                7.0,
+                5.0,
+                10.0,
+                2.0,
+                1.0,
+                8.0,
+                2.0
+              ],
+              "mean_edge_rank": 5.636363636363637,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 213.14056184791198,
+              "path_length": 48.09758971652196
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.454545454545454,
+                "percentile": 0.282,
+                "random_mean": 6.019636363636364,
+                "random_std": 0.6768872850735305
+              },
+              "path_energy": {
+                "observed": 7675.763265371175,
+                "percentile": 0.423,
+                "random_mean": 7523.756179172732,
+                "random_std": 578.0414876094238
+              },
+              "path_length": {
+                "observed": 274.5873200419164,
+                "percentile": 0.541,
+                "random_mean": 275.18769064274966,
+                "random_std": 9.985920333677106
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5454545454545454,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.3461691781188299,
+              "edge_lengths": [
+                19.761171381785715,
+                17.906284241838723,
+                21.09341223187354,
+                27.352750522309194,
+                29.384514727323296,
+                19.592208912098425,
+                37.8737660386919,
+                44.889057993684844,
+                18.120928080339436,
+                19.97991654094707,
+                18.633309371024303
+              ],
+              "edge_rank_percentiles": [
+                0.7,
+                0.0,
+                0.8,
+                0.9,
+                0.5,
+                0.4,
+                1.0,
+                1.0,
+                0.1,
+                0.5,
+                0.1
+              ],
+              "edge_ranks": [
+                8.0,
+                1.0,
+                9.0,
+                10.0,
+                6.0,
+                5.0,
+                11.0,
+                11.0,
+                2.0,
+                6.0,
+                2.0
+              ],
+              "mean_edge_rank": 6.454545454545454,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 7675.763265371175,
+              "path_length": 274.5873200419164
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "3": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.2727272727272725,
+                "percentile": 0.378,
+                "random_mean": 6.020727272727272,
+                "random_std": 0.5892425169670404
+              },
+              "path_energy": {
+                "observed": 166.47569833158983,
+                "percentile": 0.536,
+                "random_mean": 166.80473241234128,
+                "random_std": 4.537494018940572
+              },
+              "path_length": {
+                "observed": 42.53139244873629,
+                "percentile": 0.58,
+                "random_mean": 42.63441935798742,
+                "random_std": 0.598255520328442
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5272727272727272,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.11106383636811297,
+              "edge_lengths": [
+                3.4162645148362536,
+                3.191227241908766,
+                3.9573066045443688,
+                4.474995516152937,
+                4.425191414806228,
+                3.851902973910609,
+                4.32889607390276,
+                4.097820874911195,
+                3.2393207173770087,
+                3.798916761451318,
+                3.7495497549348458
+              ],
+              "edge_rank_percentiles": [
+                0.4,
+                0.0,
+                0.8,
+                1.0,
+                0.6,
+                0.8,
+                1.0,
+                0.2,
+                0.1,
+                0.8,
+                0.1
+              ],
+              "edge_ranks": [
+                5.0,
+                1.0,
+                9.0,
+                11.0,
+                7.0,
+                9.0,
+                11.0,
+                3.0,
+                2.0,
+                9.0,
+                2.0
+              ],
+              "mean_edge_rank": 6.2727272727272725,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 166.47569833158983,
+              "path_length": 42.53139244873629
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.0,
+                "percentile": 0.547,
+                "random_mean": 6.003363636363636,
+                "random_std": 0.4982583799828564
+              },
+              "path_energy": {
+                "observed": 5868.907908364845,
+                "percentile": 0.597,
+                "random_mean": 5924.912409844799,
+                "random_std": 249.6813959466444
+              },
+              "path_length": {
+                "observed": 250.41532050816755,
+                "percentile": 0.572,
+                "random_mean": 251.17200807728955,
+                "random_std": 5.399502174713666
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.17176832189515837,
+              "edge_lengths": [
+                19.578837479259487,
+                20.8921395826834,
+                20.212956141811624,
+                27.996550402374268,
+                27.199433489537043,
+                21.362173462028917,
+                28.81428471559769,
+                26.357045248807793,
+                16.292473082797816,
+                20.44617703116057,
+                21.26324987210893
+              ],
+              "edge_rank_percentiles": [
+                0.5,
+                0.1,
+                0.5,
+                1.0,
+                0.2,
+                0.7,
+                1.0,
+                0.3,
+                0.1,
+                0.6,
+                0.5
+              ],
+              "edge_ranks": [
+                6.0,
+                2.0,
+                6.0,
+                11.0,
+                3.0,
+                8.0,
+                11.0,
+                4.0,
+                2.0,
+                7.0,
+                6.0
+              ],
+              "mean_edge_rank": 6.0,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 5868.907908364845,
+              "path_length": 250.41532050816755
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "4": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.363636363636363,
+                "percentile": 0.336,
+                "random_mean": 6.017909090909091,
+                "random_std": 0.6565133989304458
+              },
+              "path_energy": {
+                "observed": 112.70789230397155,
+                "percentile": 0.442,
+                "random_mean": 112.15860581619394,
+                "random_std": 3.3542565340172885
+              },
+              "path_length": {
+                "observed": 34.90035305318771,
+                "percentile": 0.513,
+                "random_mean": 34.92259323211381,
+                "random_std": 0.5301370145121703
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5363636363636364,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.13363539296830382,
+              "edge_lengths": [
+                2.7763851401383755,
+                2.63911772606588,
+                3.3138002331909746,
+                3.871268304206141,
+                3.937137913874468,
+                3.189468716241225,
+                3.3629222492220108,
+                3.1716538947669264,
+                2.564350415864027,
+                3.0298833828347522,
+                3.0443650767829262
+              ],
+              "edge_rank_percentiles": [
+                0.4,
+                0.0,
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                0.8,
+                0.2,
+                0.0,
+                0.7,
+                0.2
+              ],
+              "edge_ranks": [
+                5.0,
+                1.0,
+                10.0,
+                11.0,
+                10.0,
+                9.0,
+                9.0,
+                3.0,
+                1.0,
+                8.0,
+                3.0
+              ],
+              "mean_edge_rank": 6.363636363636363,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 112.70789230397155,
+              "path_length": 34.90035305318771
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.545454545454546,
+                "percentile": 0.202,
+                "random_mean": 6.008181818181818,
+                "random_std": 0.5929886484495994
+              },
+              "path_energy": {
+                "observed": 8499.944593923068,
+                "percentile": 0.368,
+                "random_mean": 8342.718503805072,
+                "random_std": 373.61992720726806
+              },
+              "path_length": {
+                "observed": 299.89194645591846,
+                "percentile": 0.42,
+                "random_mean": 297.8670852001083,
+                "random_std": 6.313538950433317
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5545454545454546,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19907508008653904,
+              "edge_lengths": [
+                21.54068544557605,
+                21.818950536484714,
+                26.172522364937027,
+                38.270544739563,
+                36.72645618606984,
+                26.169317751560268,
+                27.993349053662307,
+                26.344392136970477,
+                20.43617206794103,
+                26.690258775033417,
+                27.729297398120334
+              ],
+              "edge_rank_percentiles": [
+                0.1,
+                0.1,
+                0.7,
+                1.0,
+                0.6,
+                0.8,
+                0.9,
+                0.3,
+                0.0,
+                0.9,
+                0.7
+              ],
+              "edge_ranks": [
+                2.0,
+                2.0,
+                8.0,
+                11.0,
+                7.0,
+                9.0,
+                10.0,
+                4.0,
+                1.0,
+                10.0,
+                8.0
+              ],
+              "mean_edge_rank": 6.545454545454546,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 8499.944593923068,
+              "path_length": 299.89194645591846
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "5": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.2727272727272725,
+                "percentile": 0.349,
+                "random_mean": 6.004727272727272,
+                "random_std": 0.6007660123982486
+              },
+              "path_energy": {
+                "observed": 113.96955424306216,
+                "percentile": 0.405,
+                "random_mean": 113.00104228127107,
+                "random_std": 3.5182613092138553
+              },
+              "path_length": {
+                "observed": 35.028811999582274,
+                "percentile": 0.503,
+                "random_mean": 35.024024927304545,
+                "random_std": 0.5421331853477951
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5272727272727272,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.14736767392125136,
+              "edge_lengths": [
+                2.6755702739702043,
+                2.548637762892618,
+                3.3744619647205556,
+                3.9233383131644177,
+                4.020723463063099,
+                3.2344631729240594,
+                3.3060186731659265,
+                3.052237351126702,
+                2.519678451478474,
+                3.1626476261928653,
+                3.2110349468833563
+              ],
+              "edge_rank_percentiles": [
+                0.1,
+                0.0,
+                0.9,
+                1.0,
+                0.9,
+                0.8,
+                0.7,
+                0.2,
+                0.0,
+                0.9,
+                0.3
+              ],
+              "edge_ranks": [
+                2.0,
+                1.0,
+                10.0,
+                11.0,
+                10.0,
+                9.0,
+                8.0,
+                3.0,
+                1.0,
+                10.0,
+                4.0
+              ],
+              "mean_edge_rank": 6.2727272727272725,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 113.96955424306216,
+              "path_length": 35.028811999582274
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.090909090909091,
+                "percentile": 0.508,
+                "random_mean": 6.038,
+                "random_std": 0.659672320359081
+              },
+              "path_energy": {
+                "observed": 46019.67259529864,
+                "percentile": 0.146,
+                "random_mean": 44046.721232706295,
+                "random_std": 1937.9956490534178
+              },
+              "path_length": {
+                "observed": 700.3696651485454,
+                "percentile": 0.205,
+                "random_mean": 687.9311720174444,
+                "random_std": 15.664737397799144
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.509090909090909,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1788977762567182,
+              "edge_lengths": [
+                52.061570775342204,
+                52.51996383245656,
+                67.12740481802498,
+                77.89325431384944,
+                82.34231408662173,
+                64.46776106353687,
+                60.792739335180656,
+                55.26704939243956,
+                45.10753720260379,
+                76.95050466450293,
+                65.83956566398668
+              ],
+              "edge_rank_percentiles": [
+                0.4,
+                0.1,
+                0.9,
+                1.0,
+                1.0,
+                0.8,
+                0.2,
+                0.2,
+                0.0,
+                0.9,
+                0.1
+              ],
+              "edge_ranks": [
+                5.0,
+                2.0,
+                10.0,
+                11.0,
+                11.0,
+                9.0,
+                3.0,
+                3.0,
+                1.0,
+                10.0,
+                2.0
+              ],
+              "mean_edge_rank": 6.090909090909091,
+              "ordering": [
+                "Python",
+                "JavaScript",
+                "Java",
+                "Rust",
+                "Go",
+                "Ruby",
+                "Swift",
+                "Kotlin",
+                "Scala",
+                "Haskell",
+                "Perl",
+                "Lua"
+              ],
+              "path_energy": 46019.67259529864,
+              "path_length": 700.3696651485454
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    }
+  },
+  "num_random": 1000,
+  "prompt_family": "neutral",
+  "summary_table": [
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 6.545454545454546,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.481,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 5.818181818181818,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.432,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 6.181818181818182,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.574,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 6.2727272727272725,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.778,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 5.636363636363637,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.584,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 6.454545454545454,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.423,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 6.2727272727272725,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.536,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 6.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.597,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 6.363636363636363,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.442,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 6.545454545454546,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.368,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 6.2727272727272725,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.405,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 6.090909090909091,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.146,
+      "space": "centroid"
+    }
+  ]
+}

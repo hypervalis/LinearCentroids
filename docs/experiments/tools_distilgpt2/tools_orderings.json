@@ -1,0 +1,1137 @@
+{
+  "experiment": "tools_distilgpt2",
+  "layers": {
+    "0": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.666666666666667,
+                "percentile": 0.746,
+                "random_mean": 4.989,
+                "random_std": 0.6181134080289679
+              },
+              "path_energy": {
+                "observed": 150.19448455071475,
+                "percentile": 0.563,
+                "random_mean": 150.70979103100177,
+                "random_std": 3.689514882490345
+              },
+              "path_length": {
+                "observed": 36.71868628812424,
+                "percentile": 0.54,
+                "random_mean": 36.74784640400192,
+                "random_std": 0.47447332758016453
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4583333333333333,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.05086609335205661,
+              "edge_lengths": [
+                3.939400621893683,
+                4.1720025982799,
+                4.064399874999009,
+                3.774860488019266,
+                4.091591572263828,
+                4.105325475954198,
+                3.8056690547218412,
+                4.4406334950378,
+                4.324803106954713
+              ],
+              "edge_rank_percentiles": [
+                0.625,
+                0.5,
+                0.125,
+                0.125,
+                0.875,
+                0.25,
+                0.125,
+                1.0,
+                0.5
+              ],
+              "edge_ranks": [
+                6.0,
+                5.0,
+                2.0,
+                2.0,
+                8.0,
+                3.0,
+                2.0,
+                9.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.666666666666667,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 150.19448455071475,
+              "path_length": 36.71868628812424
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.333333333333333,
+                "percentile": 0.376,
+                "random_mean": 4.990777777777778,
+                "random_std": 0.7428183816708821
+              },
+              "path_energy": {
+                "observed": 12923.970849953126,
+                "percentile": 0.164,
+                "random_mean": 12132.123686644194,
+                "random_std": 794.1753589283242
+              },
+              "path_length": {
+                "observed": 339.53144645204077,
+                "percentile": 0.124,
+                "random_mean": 327.7637134619522,
+                "random_std": 10.478876523545262
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5416666666666666,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.09471276470104797,
+              "edge_lengths": [
+                43.71875525393566,
+                42.80599777502556,
+                34.06456338704907,
+                37.70239922440971,
+                36.84158995806432,
+                35.79110414614469,
+                32.48689960774674,
+                40.00689785141698,
+                36.11323924824806
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.625,
+                0.375,
+                0.5,
+                0.625,
+                0.5,
+                0.125,
+                0.875,
+                0.25
+              ],
+              "edge_ranks": [
+                9.0,
+                6.0,
+                4.0,
+                5.0,
+                6.0,
+                5.0,
+                2.0,
+                8.0,
+                3.0
+              ],
+              "mean_edge_rank": 5.333333333333333,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 12923.970849953126,
+              "path_length": 339.53144645204077
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "1": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.777777777777778,
+                "percentile": 0.75,
+                "random_mean": 5.038,
+                "random_std": 0.47872046535595
+              },
+              "path_energy": {
+                "observed": 194.67674552801134,
+                "percentile": 0.583,
+                "random_mean": 195.8587675201058,
+                "random_std": 5.437887561811255
+              },
+              "path_length": {
+                "observed": 41.75889301851136,
+                "percentile": 0.549,
+                "random_mean": 41.826262944362014,
+                "random_std": 0.6274144802458932
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4722222222222222,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.06893059871776154,
+              "edge_lengths": [
+                4.844600419986215,
+                5.0200311344471,
+                4.5256214935414585,
+                4.073332796524567,
+                4.656562539435452,
+                4.570682667406277,
+                4.181576389256933,
+                4.920934005055329,
+                4.965551572858023
+              ],
+              "edge_rank_percentiles": [
+                0.875,
+                0.5,
+                0.125,
+                0.125,
+                0.875,
+                0.125,
+                0.125,
+                0.875,
+                0.625
+              ],
+              "edge_ranks": [
+                8.0,
+                5.0,
+                2.0,
+                2.0,
+                8.0,
+                2.0,
+                2.0,
+                8.0,
+                6.0
+              ],
+              "mean_edge_rank": 4.777777777777778,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 194.67674552801134,
+              "path_length": 41.75889301851136
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.666666666666667,
+                "percentile": 0.714,
+                "random_mean": 5.031111111111111,
+                "random_std": 0.707574539108822
+              },
+              "path_energy": {
+                "observed": 22912.53733591006,
+                "percentile": 0.739,
+                "random_mean": 26329.238564680694,
+                "random_std": 5001.448770156095
+              },
+              "path_length": {
+                "observed": 439.3915473261218,
+                "percentile": 0.596,
+                "random_mean": 449.0924170152581,
+                "random_std": 37.8974083657243
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4583333333333333,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.2609615761967137,
+              "edge_lengths": [
+                79.81122522394897,
+                52.22362779707498,
+                56.00885801953026,
+                43.87108713081345,
+                31.407413445431228,
+                41.464151466696386,
+                46.582085702196004,
+                45.444863315026915,
+                42.578235225403596
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.0,
+                0.75,
+                0.5,
+                0.125,
+                0.5,
+                0.75,
+                0.125,
+                0.375
+              ],
+              "edge_ranks": [
+                9.0,
+                1.0,
+                7.0,
+                5.0,
+                2.0,
+                5.0,
+                7.0,
+                2.0,
+                4.0
+              ],
+              "mean_edge_rank": 4.666666666666667,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 22912.53733591006,
+              "path_length": 439.3915473261218
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "2": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.222222222222222,
+                "percentile": 0.347,
+                "random_mean": 4.982444444444444,
+                "random_std": 0.4603412046421198
+              },
+              "path_energy": {
+                "observed": 206.75355079066804,
+                "percentile": 0.627,
+                "random_mean": 208.62666738008065,
+                "random_std": 6.856191832626657
+              },
+              "path_length": {
+                "observed": 42.950153770128935,
+                "percentile": 0.589,
+                "random_mean": 43.061005110050765,
+                "random_std": 0.7763626794630019
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5277777777777778,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.09332382130707542,
+              "edge_lengths": [
+                5.2638458633182825,
+                5.425852795678876,
+                4.412688242525271,
+                4.054513566989663,
+                4.654723723810914,
+                4.524120240574553,
+                4.38050584099378,
+                5.065171140853325,
+                5.168732355384274
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.625,
+                0.125,
+                0.125,
+                0.75,
+                0.125,
+                0.25,
+                0.875,
+                0.875
+              ],
+              "edge_ranks": [
+                9.0,
+                6.0,
+                2.0,
+                2.0,
+                7.0,
+                2.0,
+                3.0,
+                8.0,
+                8.0
+              ],
+              "mean_edge_rank": 5.222222222222222,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 206.75355079066804,
+              "path_length": 42.950153770128935
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 6.111111111111111,
+                "percentile": 0.03,
+                "random_mean": 5.006888888888889,
+                "random_std": 0.5645511272760351
+              },
+              "path_energy": {
+                "observed": 8804.727786032441,
+                "percentile": 0.061,
+                "random_mean": 8162.547435789104,
+                "random_std": 503.60062801709256
+              },
+              "path_length": {
+                "observed": 275.7225668155508,
+                "percentile": 0.058,
+                "random_mean": 264.61240102681074,
+                "random_std": 8.353631407282837
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.6388888888888888,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.2057925936203652,
+              "edge_lengths": [
+                40.43742190725515,
+                43.41974651345014,
+                26.920988012755004,
+                26.280113080755505,
+                29.737685923954217,
+                24.834957932866494,
+                25.43332050265248,
+                29.84174130733518,
+                28.816591634526645
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                1.0,
+                0.375,
+                0.375,
+                0.875,
+                0.25,
+                0.625,
+                0.5,
+                0.75
+              ],
+              "edge_ranks": [
+                9.0,
+                9.0,
+                4.0,
+                4.0,
+                8.0,
+                3.0,
+                6.0,
+                5.0,
+                7.0
+              ],
+              "mean_edge_rank": 6.111111111111111,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 8804.727786032441,
+              "path_length": 275.7225668155508
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "3": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.111111111111111,
+                "percentile": 0.452,
+                "random_mean": 4.988111111111111,
+                "random_std": 0.46684587828755014
+              },
+              "path_energy": {
+                "observed": 172.12617491385393,
+                "percentile": 0.655,
+                "random_mean": 174.0392311885514,
+                "random_std": 5.939347467695705
+              },
+              "path_length": {
+                "observed": 39.134837032863594,
+                "percentile": 0.606,
+                "random_mean": 39.29565087249805,
+                "random_std": 0.7320840395995993
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5138888888888888,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.10719982965408414,
+              "edge_lengths": [
+                4.90283810903577,
+                5.035777443627173,
+                3.8682411098900666,
+                3.665694407227133,
+                4.135355401087106,
+                4.026577380788102,
+                4.0897127486279565,
+                4.640599977746505,
+                4.770040454833782
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.625,
+                0.0,
+                0.125,
+                0.5,
+                0.125,
+                0.5,
+                0.875,
+                0.875
+              ],
+              "edge_ranks": [
+                9.0,
+                6.0,
+                1.0,
+                2.0,
+                5.0,
+                2.0,
+                5.0,
+                8.0,
+                8.0
+              ],
+              "mean_edge_rank": 5.111111111111111,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 172.12617491385393,
+              "path_length": 39.134837032863594
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.444444444444445,
+                "percentile": 0.247,
+                "random_mean": 4.990222222222223,
+                "random_std": 0.5655135980943603
+              },
+              "path_energy": {
+                "observed": 7567.650719179355,
+                "percentile": 0.63,
+                "random_mean": 7674.190340985055,
+                "random_std": 474.04407215818355
+              },
+              "path_length": {
+                "observed": 254.92819542664975,
+                "percentile": 0.611,
+                "random_mean": 256.41323557360573,
+                "random_std": 8.256451878612035
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5555555555555556,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.21912516133796894,
+              "edge_lengths": [
+                37.067745389784655,
+                38.16809091032546,
+                20.82142959490695,
+                21.985826305128768,
+                22.9553753651518,
+                23.3623637383258,
+                27.247819410682855,
+                31.50813637701688,
+                31.811408335326607
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.375,
+                0.0,
+                0.25,
+                0.5,
+                0.5,
+                0.75,
+                0.75,
+                0.875
+              ],
+              "edge_ranks": [
+                9.0,
+                4.0,
+                1.0,
+                3.0,
+                5.0,
+                5.0,
+                7.0,
+                7.0,
+                8.0
+              ],
+              "mean_edge_rank": 5.444444444444445,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 7567.650719179355,
+              "path_length": 254.92819542664975
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "4": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.0,
+                "percentile": 0.571,
+                "random_mean": 5.007333333333334,
+                "random_std": 0.4744801443763558
+              },
+              "path_energy": {
+                "observed": 137.61604568709402,
+                "percentile": 0.704,
+                "random_mean": 140.13693542535586,
+                "random_std": 5.1292374536418235
+              },
+              "path_length": {
+                "observed": 34.92841892103928,
+                "percentile": 0.669,
+                "random_mean": 35.19186254828161,
+                "random_std": 0.6997396179514911
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.12330838082359462,
+              "edge_lengths": [
+                4.415031784396511,
+                4.554316197428573,
+                3.404968538811262,
+                3.2217902215952825,
+                3.6512524712869716,
+                3.535458209184717,
+                3.5505599094005595,
+                4.16897890350823,
+                4.426062685427175
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.75,
+                0.0,
+                0.125,
+                0.5,
+                0.0,
+                0.5,
+                0.75,
+                0.875
+              ],
+              "edge_ranks": [
+                9.0,
+                7.0,
+                1.0,
+                2.0,
+                5.0,
+                1.0,
+                5.0,
+                7.0,
+                8.0
+              ],
+              "mean_edge_rank": 5.0,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 137.61604568709402,
+              "path_length": 34.92841892103928
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.888888888888889,
+                "percentile": 0.647,
+                "random_mean": 5.008222222222223,
+                "random_std": 0.4633816121929295
+              },
+              "path_energy": {
+                "observed": 12544.963830659077,
+                "percentile": 0.637,
+                "random_mean": 12753.670136370301,
+                "random_std": 604.7922933256943
+              },
+              "path_length": {
+                "observed": 329.886734786284,
+                "percentile": 0.684,
+                "random_mean": 333.77642174286103,
+                "random_std": 8.370161151007464
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4861111111111111,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19361285174702184,
+              "edge_lengths": [
+                43.9605274684392,
+                44.005913698512906,
+                28.3008612185237,
+                29.688166750108447,
+                29.150282831492834,
+                29.002374056385214,
+                38.08193934395974,
+                45.735888203005004,
+                41.96078121585698
+              ],
+              "edge_rank_percentiles": [
+                1.0,
+                0.25,
+                0.0,
+                0.375,
+                0.25,
+                0.125,
+                0.75,
+                0.875,
+                0.75
+              ],
+              "edge_ranks": [
+                9.0,
+                3.0,
+                1.0,
+                4.0,
+                3.0,
+                2.0,
+                7.0,
+                8.0,
+                7.0
+              ],
+              "mean_edge_rank": 4.888888888888889,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 12544.963830659077,
+              "path_length": 329.886734786284
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "5": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.777777777777778,
+                "percentile": 0.716,
+                "random_mean": 5.003111111111111,
+                "random_std": 0.5075141061105933
+              },
+              "path_energy": {
+                "observed": 151.65752422776006,
+                "percentile": 0.793,
+                "random_mean": 156.81491579485646,
+                "random_std": 5.931163255012285
+              },
+              "path_length": {
+                "observed": 36.68867966394189,
+                "percentile": 0.758,
+                "random_mean": 37.248057659830316,
+                "random_std": 0.7657727985264337
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4722222222222222,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1183645141424477,
+              "edge_lengths": [
+                4.394242133509807,
+                4.3856745175718865,
+                3.5472935553882783,
+                3.378801520008229,
+                3.884809580339003,
+                3.7157836939675915,
+                3.9111091872717485,
+                4.549383956724197,
+                4.921581519161149
+              ],
+              "edge_rank_percentiles": [
+                0.75,
+                0.5,
+                0.0,
+                0.125,
+                0.5,
+                0.0,
+                0.5,
+                0.875,
+                1.0
+              ],
+              "edge_ranks": [
+                7.0,
+                5.0,
+                1.0,
+                2.0,
+                5.0,
+                1.0,
+                5.0,
+                8.0,
+                9.0
+              ],
+              "mean_edge_rank": 4.777777777777778,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 151.65752422776006,
+              "path_length": 36.68867966394189
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.555555555555555,
+                "percentile": 0.218,
+                "random_mean": 4.999777777777777,
+                "random_std": 0.6068334732012819
+              },
+              "path_energy": {
+                "observed": 83992.1284265979,
+                "percentile": 0.264,
+                "random_mean": 80432.83190182153,
+                "random_std": 5218.4405668205545
+              },
+              "path_length": {
+                "observed": 854.042600765663,
+                "percentile": 0.281,
+                "random_mean": 836.6448424391003,
+                "random_std": 27.82873452880137
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5694444444444444,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19075420987471975,
+              "edge_lengths": [
+                100.77024264661773,
+                105.05537392672343,
+                69.75466444946642,
+                78.90738208951815,
+                80.74521675832399,
+                76.37316142761853,
+                114.36792394491208,
+                125.61973476207967,
+                102.448900760403
+              ],
+              "edge_rank_percentiles": [
+                0.75,
+                0.5,
+                0.0,
+                0.5,
+                0.375,
+                0.25,
+                1.0,
+                1.0,
+                0.75
+              ],
+              "edge_ranks": [
+                7.0,
+                5.0,
+                1.0,
+                5.0,
+                4.0,
+                3.0,
+                9.0,
+                9.0,
+                7.0
+              ],
+              "mean_edge_rank": 5.555555555555555,
+              "ordering": [
+                "hammer",
+                "saw",
+                "drill",
+                "wrench",
+                "knife",
+                "brush",
+                "needle",
+                "scissors",
+                "pen",
+                "computer"
+              ],
+              "path_energy": 83992.1284265979,
+              "path_length": 854.042600765663
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    }
+  },
+  "num_random": 1000,
+  "prompt_family": "neutral",
+  "summary_table": [
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 4.666666666666667,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.563,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 5.333333333333333,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.164,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 4.777777777777778,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.583,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 4.666666666666667,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.739,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 5.222222222222222,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.627,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 6.111111111111111,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.061,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 5.111111111111111,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.655,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 5.444444444444445,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.63,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 5.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.704,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 4.888888888888889,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.637,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 4.777777777777778,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.793,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 5.555555555555555,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.264,
+      "space": "centroid"
+    }
+  ]
+}

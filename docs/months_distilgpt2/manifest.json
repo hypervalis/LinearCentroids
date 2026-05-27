@@ -1,0 +1,257 @@
+{
+  "experiment": "months_distilgpt2",
+  "figures": [
+    {
+      "layer": 0,
+      "representation": "activation",
+      "panel": "pca3d",
+      "path": "layer_00_activation_pca3d.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "panel": "curvature",
+      "path": "layer_00_activation_curvature.html"
+    },
+    {
+      "layer": 0,
+      "representation": "activation",
+      "panel": "edge_closure",
+      "path": "layer_00_activation_edge_closure.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "panel": "pca3d",
+      "path": "layer_00_centroid_pca3d.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "panel": "curvature",
+      "path": "layer_00_centroid_curvature.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "panel": "edge_closure",
+      "path": "layer_00_centroid_edge_closure.html"
+    },
+    {
+      "layer": 0,
+      "representation": "both",
+      "panel": "template_variance",
+      "path": "layer_00_template_variance.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "panel": "pca3d",
+      "path": "layer_01_activation_pca3d.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "panel": "curvature",
+      "path": "layer_01_activation_curvature.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "panel": "edge_closure",
+      "path": "layer_01_activation_edge_closure.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "panel": "pca3d",
+      "path": "layer_01_centroid_pca3d.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "panel": "curvature",
+      "path": "layer_01_centroid_curvature.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "panel": "edge_closure",
+      "path": "layer_01_centroid_edge_closure.html"
+    },
+    {
+      "layer": 1,
+      "representation": "both",
+      "panel": "template_variance",
+      "path": "layer_01_template_variance.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "panel": "pca3d",
+      "path": "layer_02_activation_pca3d.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "panel": "curvature",
+      "path": "layer_02_activation_curvature.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "panel": "edge_closure",
+      "path": "layer_02_activation_edge_closure.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "panel": "pca3d",
+      "path": "layer_02_centroid_pca3d.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "panel": "curvature",
+      "path": "layer_02_centroid_curvature.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "panel": "edge_closure",
+      "path": "layer_02_centroid_edge_closure.html"
+    },
+    {
+      "layer": 2,
+      "representation": "both",
+      "panel": "template_variance",
+      "path": "layer_02_template_variance.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "panel": "pca3d",
+      "path": "layer_03_activation_pca3d.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "panel": "curvature",
+      "path": "layer_03_activation_curvature.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "panel": "edge_closure",
+      "path": "layer_03_activation_edge_closure.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "panel": "pca3d",
+      "path": "layer_03_centroid_pca3d.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "panel": "curvature",
+      "path": "layer_03_centroid_curvature.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "panel": "edge_closure",
+      "path": "layer_03_centroid_edge_closure.html"
+    },
+    {
+      "layer": 3,
+      "representation": "both",
+      "panel": "template_variance",
+      "path": "layer_03_template_variance.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "panel": "pca3d",
+      "path": "layer_04_activation_pca3d.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "panel": "curvature",
+      "path": "layer_04_activation_curvature.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "panel": "edge_closure",
+      "path": "layer_04_activation_edge_closure.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "panel": "pca3d",
+      "path": "layer_04_centroid_pca3d.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "panel": "curvature",
+      "path": "layer_04_centroid_curvature.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "panel": "edge_closure",
+      "path": "layer_04_centroid_edge_closure.html"
+    },
+    {
+      "layer": 4,
+      "representation": "both",
+      "panel": "template_variance",
+      "path": "layer_04_template_variance.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "panel": "pca3d",
+      "path": "layer_05_activation_pca3d.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "panel": "curvature",
+      "path": "layer_05_activation_curvature.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "panel": "edge_closure",
+      "path": "layer_05_activation_edge_closure.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "panel": "pca3d",
+      "path": "layer_05_centroid_pca3d.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "panel": "curvature",
+      "path": "layer_05_centroid_curvature.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "panel": "edge_closure",
+      "path": "layer_05_centroid_edge_closure.html"
+    },
+    {
+      "layer": 5,
+      "representation": "both",
+      "panel": "template_variance",
+      "path": "layer_05_template_variance.html"
+    }
+  ]
+}

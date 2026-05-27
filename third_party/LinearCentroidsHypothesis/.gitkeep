@@ -1,0 +1,19 @@
+# Linear Centroids Hypothesis — official paper code (git submodule)
+
+This directory is populated by the upstream repository. It is **not**
+shipped inside Linear Centroid Experiments; add it locally with:
+
+```bash
+git submodule add https://github.com/ThomasWalker1/LinearCentroidsHypothesis.git third_party/LinearCentroidsHypothesis
+git submodule update --init --recursive
+```
+
+If you cloned this repo without submodules:
+
+```bash
+git submodule update --init --recursive
+```
+
+Expected file after init: `centroids.py` (see paper repo).
+
+Our code accesses it only through `lce.centroid_adapter`.

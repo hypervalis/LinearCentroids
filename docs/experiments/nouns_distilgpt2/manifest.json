@@ -1,0 +1,101 @@
+{
+  "experiment": "nouns_distilgpt2",
+  "figures": [
+    {
+      "layer": 0,
+      "representation": "activation",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_activation_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 0,
+      "representation": "centroid",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_00_centroid_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "activation",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_activation_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 1,
+      "representation": "centroid",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_01_centroid_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "activation",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_activation_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 2,
+      "representation": "centroid",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_02_centroid_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "activation",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_activation_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 3,
+      "representation": "centroid",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_03_centroid_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "activation",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_activation_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 4,
+      "representation": "centroid",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_04_centroid_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "activation",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_activation_list_order_non_cyclic.html"
+    },
+    {
+      "layer": 5,
+      "representation": "centroid",
+      "ordering": "list_order",
+      "mode": "non_cyclic",
+      "cyclic": false,
+      "path": "layer_05_centroid_list_order_non_cyclic.html"
+    }
+  ]
+}

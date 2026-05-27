@@ -1,0 +1,1137 @@
+{
+  "experiment": "disciplines_distilgpt2",
+  "layers": {
+    "0": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.333333333333333,
+                "percentile": 0.819,
+                "random_mean": 5.012555555555556,
+                "random_std": 0.7813586694792414
+              },
+              "path_energy": {
+                "observed": 109.50624636546058,
+                "percentile": 0.933,
+                "random_mean": 130.73336122361084,
+                "random_std": 14.12338947771048
+              },
+              "path_length": {
+                "observed": 30.550197965992517,
+                "percentile": 0.931,
+                "random_mean": 33.64085648954155,
+                "random_std": 2.105265759921789
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4166666666666667,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.23658886208107047,
+              "edge_lengths": [
+                3.001301865711538,
+                3.144040604388852,
+                3.2724804422565583,
+                4.292020879461734,
+                2.068568102306626,
+                2.2899197698173923,
+                4.105864065973251,
+                4.079978722460124,
+                4.296023513616438
+              ],
+              "edge_rank_percentiles": [
+                0.25,
+                0.25,
+                0.25,
+                1.0,
+                0.125,
+                0.125,
+                0.5,
+                0.625,
+                0.625
+              ],
+              "edge_ranks": [
+                3.0,
+                3.0,
+                3.0,
+                9.0,
+                2.0,
+                2.0,
+                5.0,
+                6.0,
+                6.0
+              ],
+              "mean_edge_rank": 4.333333333333333,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 109.50624636546058,
+              "path_length": 30.550197965992517
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.888888888888889,
+                "percentile": 0.93,
+                "random_mean": 5.007,
+                "random_std": 0.7793082640203236
+              },
+              "path_energy": {
+                "observed": 10324.757975838816,
+                "percentile": 0.887,
+                "random_mean": 12213.287334471466,
+                "random_std": 1532.2738626721273
+              },
+              "path_length": {
+                "observed": 292.6574247964551,
+                "percentile": 0.903,
+                "random_mean": 323.0866937704636,
+                "random_std": 23.035598568456265
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3611111111111111,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.29143428317506204,
+              "edge_lengths": [
+                23.609357316927454,
+                23.594748084685264,
+                36.46742321228996,
+                45.31577395756755,
+                21.199581252247818,
+                21.157670770805918,
+                44.37626719431551,
+                37.65930470851113,
+                39.27729829910449
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.375,
+                0.625,
+                0.25,
+                0.0,
+                0.875,
+                0.5,
+                0.625
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                4.0,
+                6.0,
+                3.0,
+                1.0,
+                8.0,
+                5.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.888888888888889,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 10324.757975838816,
+              "path_length": 292.6574247964551
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "1": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5555555555555554,
+                "percentile": 0.974,
+                "random_mean": 4.969444444444444,
+                "random_std": 0.7336983519164659
+              },
+              "path_energy": {
+                "observed": 117.16442519104042,
+                "percentile": 0.966,
+                "random_mean": 135.1012020310884,
+                "random_std": 9.671872677731349
+              },
+              "path_length": {
+                "observed": 31.9474915209111,
+                "percentile": 0.969,
+                "random_mean": 34.45481412212705,
+                "random_std": 1.3229440774838992
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3194444444444444,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.18208035486386406,
+              "edge_lengths": [
+                3.442478943647837,
+                3.3928281332549832,
+                3.6973134572436632,
+                4.175597717734574,
+                2.302650535645907,
+                2.7203627739944007,
+                3.6861920889978568,
+                4.377114051917712,
+                4.152953818474169
+              ],
+              "edge_rank_percentiles": [
+                0.25,
+                0.0,
+                0.25,
+                0.625,
+                0.0,
+                0.125,
+                0.375,
+                1.0,
+                0.25
+              ],
+              "edge_ranks": [
+                3.0,
+                1.0,
+                3.0,
+                6.0,
+                1.0,
+                2.0,
+                4.0,
+                9.0,
+                3.0
+              ],
+              "mean_edge_rank": 3.5555555555555554,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 117.16442519104042,
+              "path_length": 31.9474915209111
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.111111111111111,
+                "percentile": 0.915,
+                "random_mean": 5.019888888888889,
+                "random_std": 0.7317234770824156
+              },
+              "path_energy": {
+                "observed": 15201.328519823164,
+                "percentile": 0.97,
+                "random_mean": 24267.696224065512,
+                "random_std": 4967.865207289272
+              },
+              "path_length": {
+                "observed": 346.6725822995156,
+                "percentile": 0.969,
+                "random_mean": 424.58001203316456,
+                "random_std": 41.44822130354621
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3888888888888889,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.37198689432590015,
+              "edge_lengths": [
+                34.71249737913253,
+                26.88970688872773,
+                20.644475277640936,
+                57.9323881345963,
+                33.3971158269552,
+                36.212427033227165,
+                28.497064547822685,
+                40.44012633496626,
+                67.94678087644684
+              ],
+              "edge_rank_percentiles": [
+                0.375,
+                0.125,
+                0.125,
+                0.875,
+                0.0,
+                0.25,
+                0.0,
+                0.75,
+                1.0
+              ],
+              "edge_ranks": [
+                4.0,
+                2.0,
+                2.0,
+                8.0,
+                1.0,
+                3.0,
+                1.0,
+                7.0,
+                9.0
+              ],
+              "mean_edge_rank": 4.111111111111111,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 15201.328519823164,
+              "path_length": 346.6725822995156
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "2": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5555555555555554,
+                "percentile": 0.979,
+                "random_mean": 4.955333333333334,
+                "random_std": 0.7431032362687477
+              },
+              "path_energy": {
+                "observed": 120.67471811574391,
+                "percentile": 0.985,
+                "random_mean": 142.31727593493275,
+                "random_std": 9.717264366457565
+              },
+              "path_length": {
+                "observed": 32.45892353050089,
+                "percentile": 0.989,
+                "random_mean": 35.40011945406863,
+                "random_std": 1.2616267469279727
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3194444444444444,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.17560857979996103,
+              "edge_lengths": [
+                3.4854907286377967,
+                3.3938588551210915,
+                3.884457450442438,
+                4.200156862656242,
+                2.45159959904544,
+                2.7789488513520397,
+                3.611578572195989,
+                4.507128811434496,
+                4.145703799615355
+              ],
+              "edge_rank_percentiles": [
+                0.25,
+                0.0,
+                0.25,
+                0.625,
+                0.0,
+                0.125,
+                0.375,
+                1.0,
+                0.25
+              ],
+              "edge_ranks": [
+                3.0,
+                1.0,
+                3.0,
+                6.0,
+                1.0,
+                2.0,
+                4.0,
+                9.0,
+                3.0
+              ],
+              "mean_edge_rank": 3.5555555555555554,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 120.67471811574391,
+              "path_length": 32.45892353050089
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5555555555555554,
+                "percentile": 0.954,
+                "random_mean": 4.947333333333334,
+                "random_std": 0.8369648575893173
+              },
+              "path_energy": {
+                "observed": 5873.146682311579,
+                "percentile": 0.957,
+                "random_mean": 7645.392335632341,
+                "random_std": 1024.208060557019
+              },
+              "path_length": {
+                "observed": 220.74364012223086,
+                "percentile": 0.963,
+                "random_mean": 254.8435294436187,
+                "random_std": 19.030564450852065
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3194444444444444,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.29114984017661444,
+              "edge_lengths": [
+                16.935350617331192,
+                16.486529490456498,
+                20.63275133544545,
+                33.91482198045513,
+                18.20117622488124,
+                19.428913404727655,
+                31.339893642850715,
+                34.3685502207532,
+                29.435653205329782
+              ],
+              "edge_rank_percentiles": [
+                0.25,
+                0.0,
+                0.375,
+                0.75,
+                0.0,
+                0.125,
+                0.625,
+                0.75,
+                0.0
+              ],
+              "edge_ranks": [
+                3.0,
+                1.0,
+                4.0,
+                7.0,
+                1.0,
+                2.0,
+                6.0,
+                7.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.5555555555555554,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 5873.146682311579,
+              "path_length": 220.74364012223086
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "3": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.4444444444444446,
+                "percentile": 0.985,
+                "random_mean": 5.006444444444444,
+                "random_std": 0.7363292003975022
+              },
+              "path_energy": {
+                "observed": 89.74119302569383,
+                "percentile": 0.988,
+                "random_mean": 107.64911866249989,
+                "random_std": 7.873628981241207
+              },
+              "path_length": {
+                "observed": 27.929759389143882,
+                "percentile": 0.987,
+                "random_mean": 30.73543004451785,
+                "random_std": 1.1730977019589615
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3055555555555556,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.188096911142308,
+              "edge_lengths": [
+                2.9712961429286127,
+                2.8997500336774573,
+                3.273453916850436,
+                3.5483535923034664,
+                2.12459500040275,
+                2.316022482131774,
+                3.047456662686023,
+                3.9474801832836177,
+                3.801351374879743
+              ],
+              "edge_rank_percentiles": [
+                0.25,
+                0.0,
+                0.25,
+                0.375,
+                0.0,
+                0.125,
+                0.375,
+                1.0,
+                0.375
+              ],
+              "edge_ranks": [
+                3.0,
+                1.0,
+                3.0,
+                4.0,
+                1.0,
+                2.0,
+                4.0,
+                9.0,
+                4.0
+              ],
+              "mean_edge_rank": 3.4444444444444446,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 89.74119302569383,
+              "path_length": 27.929759389143882
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.4444444444444446,
+                "percentile": 0.987,
+                "random_mean": 4.963666666666666,
+                "random_std": 0.743366308851701
+              },
+              "path_energy": {
+                "observed": 3645.8765882946,
+                "percentile": 0.995,
+                "random_mean": 4634.412790521834,
+                "random_std": 396.68694568889157
+              },
+              "path_length": {
+                "observed": 177.3794962434947,
+                "percentile": 0.997,
+                "random_mean": 201.2877270531243,
+                "random_std": 9.33804990398863
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3055555555555556,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.2070939998317403,
+              "edge_lengths": [
+                15.654878396194356,
+                15.968406542457465,
+                19.157531814693282,
+                25.464441445175616,
+                14.648151555975312,
+                16.484939972770874,
+                20.863178780835533,
+                23.703303641517415,
+                25.434664093874844
+              ],
+              "edge_rank_percentiles": [
+                0.125,
+                0.125,
+                0.25,
+                0.5,
+                0.0,
+                0.125,
+                0.25,
+                0.875,
+                0.5
+              ],
+              "edge_ranks": [
+                2.0,
+                2.0,
+                3.0,
+                5.0,
+                1.0,
+                2.0,
+                3.0,
+                8.0,
+                5.0
+              ],
+              "mean_edge_rank": 3.4444444444444446,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 3645.8765882946,
+              "path_length": 177.3794962434947
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "4": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.2222222222222223,
+                "percentile": 0.995,
+                "random_mean": 4.990888888888889,
+                "random_std": 0.7251162188671534
+              },
+              "path_energy": {
+                "observed": 61.17090833413139,
+                "percentile": 0.99,
+                "random_mean": 74.0175070733882,
+                "random_std": 5.194821536346992
+              },
+              "path_length": {
+                "observed": 23.078440151529776,
+                "percentile": 0.995,
+                "random_mean": 25.485203586927017,
+                "random_std": 0.9382616270468883
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2777777777777778,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1834460192102516,
+              "edge_lengths": [
+                2.42255419293729,
+                2.3905932304525215,
+                2.716819640076337,
+                2.937383280167964,
+                1.7612287903313228,
+                1.991900872888295,
+                2.484594628398514,
+                3.2988737176753022,
+                3.0744917986022324
+              ],
+              "edge_rank_percentiles": [
+                0.25,
+                0.0,
+                0.25,
+                0.5,
+                0.0,
+                0.125,
+                0.375,
+                1.0,
+                0.0
+              ],
+              "edge_ranks": [
+                3.0,
+                1.0,
+                3.0,
+                5.0,
+                1.0,
+                2.0,
+                4.0,
+                9.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.2222222222222223,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 61.17090833413139,
+              "path_length": 23.078440151529776
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.2222222222222223,
+                "percentile": 0.998,
+                "random_mean": 4.995555555555556,
+                "random_std": 0.7216099969196109
+              },
+              "path_energy": {
+                "observed": 4784.522516444411,
+                "percentile": 0.998,
+                "random_mean": 5890.126864100635,
+                "random_std": 442.5754878398611
+              },
+              "path_length": {
+                "observed": 203.85384839009916,
+                "percentile": 0.998,
+                "random_mean": 227.14899672736212,
+                "random_std": 8.712434592819212
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2777777777777778,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19026106434523846,
+              "edge_lengths": [
+                20.69236741170136,
+                18.733766341057162,
+                23.13774132877355,
+                24.89438081101323,
+                16.152929188801636,
+                18.35534299851173,
+                23.994093388360717,
+                29.633657508400674,
+                28.259569413479102
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.25,
+                0.5,
+                0.0,
+                0.125,
+                0.25,
+                1.0,
+                0.375
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                3.0,
+                5.0,
+                1.0,
+                2.0,
+                3.0,
+                9.0,
+                4.0
+              ],
+              "mean_edge_rank": 3.2222222222222223,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 4784.522516444411,
+              "path_length": 203.85384839009916
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "5": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.0,
+                "percentile": 0.998,
+                "random_mean": 4.981222222222223,
+                "random_std": 0.696786619125678
+              },
+              "path_energy": {
+                "observed": 52.2254419745189,
+                "percentile": 0.996,
+                "random_mean": 63.605185477870684,
+                "random_std": 4.740763731608042
+              },
+              "path_length": {
+                "observed": 21.250447672690804,
+                "percentile": 0.996,
+                "random_mean": 23.544812226360847,
+                "random_std": 0.8932957791305282
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.25,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.20211572548496728,
+              "edge_lengths": [
+                2.3319264673453115,
+                2.257844514692383,
+                2.6399480509624342,
+                2.6647268872955454,
+                1.5454393595853926,
+                1.7587502560248653,
+                2.146723181293977,
+                3.1699846957045783,
+                2.7351042597863175
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.0,
+                0.375,
+                0.375,
+                0.0,
+                0.125,
+                0.375,
+                1.0,
+                0.0
+              ],
+              "edge_ranks": [
+                1.0,
+                1.0,
+                4.0,
+                4.0,
+                1.0,
+                2.0,
+                4.0,
+                9.0,
+                1.0
+              ],
+              "mean_edge_rank": 3.0,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 52.2254419745189,
+              "path_length": 21.250447672690804
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 2.888888888888889,
+                "percentile": 1.0,
+                "random_mean": 4.966222222222222,
+                "random_std": 0.7515382086177295
+              },
+              "path_energy": {
+                "observed": 21462.456823728677,
+                "percentile": 0.998,
+                "random_mean": 28837.419829787395,
+                "random_std": 2366.1288436971163
+              },
+              "path_length": {
+                "observed": 431.22419292705627,
+                "percentile": 0.999,
+                "random_mean": 501.90155143044575,
+                "random_std": 21.946423701085227
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2361111111111111,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1968785725953454,
+              "edge_lengths": [
+                45.96586892357209,
+                44.027320636488724,
+                49.735445459479465,
+                53.60539588222599,
+                31.950973337507065,
+                40.838510924322186,
+                41.62193340908733,
+                64.86215831712045,
+                58.616586037253015
+              ],
+              "edge_rank_percentiles": [
+                0.125,
+                0.0,
+                0.25,
+                0.375,
+                0.0,
+                0.125,
+                0.25,
+                1.0,
+                0.0
+              ],
+              "edge_ranks": [
+                2.0,
+                1.0,
+                3.0,
+                4.0,
+                1.0,
+                2.0,
+                3.0,
+                9.0,
+                1.0
+              ],
+              "mean_edge_rank": 2.888888888888889,
+              "ordering": [
+                "Physics",
+                "Biology",
+                "Chemistry",
+                "Mathematics",
+                "Geology",
+                "Archaeology",
+                "Sociology",
+                "Anthropology",
+                "Genealogy",
+                "Tautology"
+              ],
+              "path_energy": 21462.456823728677,
+              "path_length": 431.22419292705627
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    }
+  },
+  "num_random": 1000,
+  "prompt_family": "neutral",
+  "summary_table": [
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 4.333333333333333,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.933,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 3.888888888888889,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.887,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 3.5555555555555554,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.966,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 4.111111111111111,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.97,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 3.5555555555555554,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.985,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 3.5555555555555554,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.957,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 3.4444444444444446,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.988,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 3.4444444444444446,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.995,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 3.2222222222222223,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.99,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 3.2222222222222223,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.998,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 3.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.996,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 2.888888888888889,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.998,
+      "space": "centroid"
+    }
+  ]
+}

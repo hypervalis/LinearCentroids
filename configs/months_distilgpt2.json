@@ -1,0 +1,39 @@
+{
+  "experiment": "months_distilgpt2",
+  "model_name": "distilgpt2",
+  "concept_sequence": "months",
+  "geometry_kind": "cyclic",
+  "prompt_templates": [
+    "The month is {month}",
+    "The calendar says {month}",
+    "The event happens in {month}"
+  ],
+  "hook": {
+    "block": "transformer.h.{layer}",
+    "activation_site": "ln_2",
+    "activation_description": "pre-MLP LayerNorm output at selected token",
+    "centroid_description": "grad sum(mlp(ln_2_output)) w.r.t. ln_2_output",
+    "layers": [0, 1, 2, 3, 4, 5],
+    "token_position": "final",
+    "tokenizer_audit": true
+  },
+  "representations": {
+    "activation": "ln_2_output_at_token",
+    "centroid": "mlp_local_centroid_wrt_ln_2"
+  },
+  "device": "cuda_if_available",
+  "geometry": {
+    "pca_components": 3,
+    "on": "template_mean_trajectories"
+  },
+  "template_variance": {
+    "on": "raw_per_template_tensors",
+    "compare_activation_vs_centroid": true
+  },
+  "output": {
+    "raw_dir": "results/raw/months_distilgpt2",
+    "geometry_dir": "results/geometry/months_distilgpt2",
+    "metrics_dir": "results/metrics/months_distilgpt2",
+    "plots_dir": "results/plots/months_distilgpt2"
+  }
+}

@@ -1,0 +1,1233 @@
+{
+  "experiment": "animals_distilgpt2",
+  "layers": {
+    "0": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.454545454545454,
+                "percentile": 0.964,
+                "random_mean": 5.958181818181818,
+                "random_std": 0.8415177158656273
+              },
+              "path_energy": {
+                "observed": 138.62272200749666,
+                "percentile": 0.952,
+                "random_mean": 146.7348953115508,
+                "random_std": 4.9124096734712674
+              },
+              "path_length": {
+                "observed": 38.94585828127065,
+                "percentile": 0.951,
+                "random_mean": 40.082815422694566,
+                "random_std": 0.6928898435617167
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.34545454545454546,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.07294192697397901,
+              "edge_lengths": [
+                3.0842123430258392,
+                3.696175172187404,
+                3.145210913124268,
+                3.7113095713863387,
+                3.6941082993315395,
+                3.3789011146045267,
+                3.637857485270404,
+                3.3560376120358133,
+                3.8508338380441707,
+                3.4979416845735276,
+                3.8932702476868197
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.2,
+                0.0,
+                0.4,
+                0.7,
+                0.3,
+                0.3,
+                0.3,
+                0.8,
+                0.0,
+                0.8
+              ],
+              "edge_ranks": [
+                1.0,
+                3.0,
+                1.0,
+                5.0,
+                8.0,
+                4.0,
+                4.0,
+                4.0,
+                9.0,
+                1.0,
+                9.0
+              ],
+              "mean_edge_rank": 4.454545454545454,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 138.62272200749666,
+              "path_length": 38.94585828127065
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.636363636363637,
+                "percentile": 0.961,
+                "random_mean": 6.013545454545454,
+                "random_std": 0.8016862342474257
+              },
+              "path_energy": {
+                "observed": 9412.066015735169,
+                "percentile": 0.968,
+                "random_mean": 10707.118836293217,
+                "random_std": 694.3463954572476
+              },
+              "path_length": {
+                "observed": 319.37484227861745,
+                "percentile": 0.967,
+                "random_mean": 339.76789733587475,
+                "random_std": 10.734558572273333
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.36363636363636365,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.12257178518842267,
+              "edge_lengths": [
+                24.81786572682335,
+                30.094014618636923,
+                25.666992165726338,
+                31.59312064140253,
+                30.316968023725682,
+                36.80498383107433,
+                30.80054338608278,
+                24.624603933990322,
+                30.104850148481308,
+                24.973519397191954,
+                29.57738040548193
+              ],
+              "edge_rank_percentiles": [
+                0.1,
+                0.1,
+                0.1,
+                0.8,
+                0.5,
+                1.0,
+                0.1,
+                0.1,
+                0.4,
+                0.0,
+                0.8
+              ],
+              "edge_ranks": [
+                2.0,
+                2.0,
+                2.0,
+                9.0,
+                6.0,
+                11.0,
+                2.0,
+                2.0,
+                5.0,
+                1.0,
+                9.0
+              ],
+              "mean_edge_rank": 4.636363636363637,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 9412.066015735169,
+              "path_length": 319.37484227861745
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "1": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.181818181818182,
+                "percentile": 0.991,
+                "random_mean": 6.025363636363636,
+                "random_std": 0.7849364821383547
+              },
+              "path_energy": {
+                "observed": 186.86517267832292,
+                "percentile": 0.953,
+                "random_mean": 200.8679444182765,
+                "random_std": 7.584984674561907
+              },
+              "path_length": {
+                "observed": 45.146892853097015,
+                "percentile": 0.954,
+                "random_mean": 46.83870908738558,
+                "random_std": 0.9173174567974953
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3181818181818182,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.0920620675258069,
+              "edge_lengths": [
+                3.41554185021664,
+                4.3397126634816585,
+                3.70302497626361,
+                4.39481331519037,
+                4.143272161922106,
+                3.880381636667573,
+                4.349050004392084,
+                3.6455102454899193,
+                4.493381146949209,
+                4.110673661932865,
+                4.671531190590979
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.2,
+                0.0,
+                0.6,
+                0.3,
+                0.4,
+                0.3,
+                0.1,
+                0.9,
+                0.0,
+                0.7
+              ],
+              "edge_ranks": [
+                1.0,
+                3.0,
+                1.0,
+                7.0,
+                4.0,
+                5.0,
+                4.0,
+                2.0,
+                10.0,
+                1.0,
+                8.0
+              ],
+              "mean_edge_rank": 4.181818181818182,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 186.86517267832292,
+              "path_length": 45.146892853097015
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 5.363636363636363,
+                "percentile": 0.787,
+                "random_mean": 6.002,
+                "random_std": 0.859701639576725
+              },
+              "path_energy": {
+                "observed": 13126.700063890139,
+                "percentile": 0.921,
+                "random_mean": 17544.501931673014,
+                "random_std": 3099.0732533927066
+              },
+              "path_length": {
+                "observed": 367.57856509491313,
+                "percentile": 0.884,
+                "random_mean": 414.2245024591759,
+                "random_std": 37.17572880263256
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.43636363636363634,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.2620696755340521,
+              "edge_lengths": [
+                21.91935612220544,
+                26.9639979874436,
+                42.87958671422789,
+                49.514867700598,
+                35.6833003573928,
+                36.46057611592822,
+                24.768990196980013,
+                25.1558298802711,
+                25.233400800696497,
+                42.86792284668938,
+                36.130736372480136
+              ],
+              "edge_rank_percentiles": [
+                0.1,
+                0.1,
+                0.7,
+                0.9,
+                0.3,
+                0.9,
+                0.0,
+                0.2,
+                0.4,
+                0.6,
+                0.6
+              ],
+              "edge_ranks": [
+                2.0,
+                2.0,
+                8.0,
+                10.0,
+                4.0,
+                10.0,
+                1.0,
+                3.0,
+                5.0,
+                7.0,
+                7.0
+              ],
+              "mean_edge_rank": 5.363636363636363,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 13126.700063890139,
+              "path_length": 367.57856509491313
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "2": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.181818181818182,
+                "percentile": 0.981,
+                "random_mean": 6.020272727272728,
+                "random_std": 0.850761792806408
+              },
+              "path_energy": {
+                "observed": 179.12590636858636,
+                "percentile": 0.97,
+                "random_mean": 196.9262019397209,
+                "random_std": 8.830203542651084
+              },
+              "path_length": {
+                "observed": 44.17632271587357,
+                "percentile": 0.972,
+                "random_mean": 46.34770986699,
+                "random_std": 1.0794787460876247
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3181818181818182,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.09824757865773368,
+              "edge_lengths": [
+                3.336620920401163,
+                4.193294103533821,
+                3.554136444461491,
+                4.379452638074092,
+                4.087000574065868,
+                3.764915716335709,
+                4.280993846552015,
+                3.534912299744982,
+                4.402826803384044,
+                4.030780017822839,
+                4.611389351497539
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.1,
+                0.0,
+                0.5,
+                0.4,
+                0.4,
+                0.3,
+                0.1,
+                0.9,
+                0.1,
+                0.7
+              ],
+              "edge_ranks": [
+                1.0,
+                2.0,
+                1.0,
+                6.0,
+                5.0,
+                5.0,
+                4.0,
+                2.0,
+                10.0,
+                2.0,
+                8.0
+              ],
+              "mean_edge_rank": 4.181818181818182,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 179.12590636858636,
+              "path_length": 44.17632271587357
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.7272727272727275,
+                "percentile": 0.943,
+                "random_mean": 6.011181818181818,
+                "random_std": 0.7832538140284302
+              },
+              "path_energy": {
+                "observed": 4433.754388360708,
+                "percentile": 0.873,
+                "random_mean": 4847.549365801858,
+                "random_std": 354.3052747577447
+              },
+              "path_length": {
+                "observed": 217.91683384321152,
+                "percentile": 0.875,
+                "random_mean": 227.3079807821476,
+                "random_std": 8.03751059643827
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3727272727272728,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1644053400169215,
+              "edge_lengths": [
+                17.996775216976694,
+                21.174272596470857,
+                19.458666782050944,
+                19.96168407357511,
+                17.568897743801678,
+                19.163884964332464,
+                28.922679332833752,
+                15.622187896273301,
+                21.116646023318104,
+                18.62377165694706,
+                18.307367556631544
+              ],
+              "edge_rank_percentiles": [
+                0.2,
+                0.3,
+                0.3,
+                0.4,
+                0.1,
+                0.8,
+                0.8,
+                0.0,
+                0.8,
+                0.0,
+                0.4
+              ],
+              "edge_ranks": [
+                3.0,
+                4.0,
+                4.0,
+                5.0,
+                2.0,
+                9.0,
+                9.0,
+                1.0,
+                9.0,
+                1.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.7272727272727275,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 4433.754388360708,
+              "path_length": 217.91683384321152
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "3": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.2727272727272725,
+                "percentile": 0.989,
+                "random_mean": 5.990909090909091,
+                "random_std": 0.7949946722624118
+              },
+              "path_energy": {
+                "observed": 147.99676015691963,
+                "percentile": 0.971,
+                "random_mean": 161.87469306923123,
+                "random_std": 7.061008543653661
+              },
+              "path_length": {
+                "observed": 40.137692072953804,
+                "percentile": 0.965,
+                "random_mean": 41.99780234109205,
+                "random_std": 0.9475861780630408
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3272727272727273,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.10251243605625626,
+              "edge_lengths": [
+                3.018493138156025,
+                3.819134866293102,
+                3.206664416951363,
+                3.99614395401802,
+                3.7581352884254806,
+                3.393899236541682,
+                3.83668582681294,
+                3.165345623426823,
+                4.024116622247681,
+                3.7179510313005077,
+                4.2011220687801805
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.1,
+                0.1,
+                0.5,
+                0.5,
+                0.3,
+                0.3,
+                0.1,
+                0.9,
+                0.0,
+                0.8
+              ],
+              "edge_ranks": [
+                1.0,
+                2.0,
+                2.0,
+                6.0,
+                6.0,
+                4.0,
+                4.0,
+                2.0,
+                10.0,
+                1.0,
+                9.0
+              ],
+              "mean_edge_rank": 4.2727272727272725,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 147.99676015691963,
+              "path_length": 40.137692072953804
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.090909090909091,
+                "percentile": 0.998,
+                "random_mean": 6.008454545454545,
+                "random_std": 0.6776621882046497
+              },
+              "path_energy": {
+                "observed": 4884.9529414200715,
+                "percentile": 0.978,
+                "random_mean": 5494.634492545104,
+                "random_std": 282.85013517827554
+              },
+              "path_length": {
+                "observed": 229.76128890627703,
+                "percentile": 0.977,
+                "random_mean": 243.38777960862166,
+                "random_std": 6.35474344005497
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3090909090909091,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1337403969371884,
+              "edge_lengths": [
+                18.00629956546704,
+                21.608248175832088,
+                16.919229563861062,
+                21.830706300975162,
+                19.370334500670666,
+                19.830353667244236,
+                23.70088503286484,
+                16.750105960572885,
+                24.777574663250558,
+                24.77125840800689,
+                22.19629306753161
+              ],
+              "edge_rank_percentiles": [
+                0.1,
+                0.1,
+                0.0,
+                0.5,
+                0.2,
+                0.5,
+                0.3,
+                0.0,
+                1.0,
+                0.3,
+                0.4
+              ],
+              "edge_ranks": [
+                2.0,
+                2.0,
+                1.0,
+                6.0,
+                3.0,
+                6.0,
+                4.0,
+                1.0,
+                11.0,
+                4.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.090909090909091,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 4884.9529414200715,
+              "path_length": 229.76128890627703
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "4": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.0,
+                "percentile": 0.996,
+                "random_mean": 5.999545454545455,
+                "random_std": 0.7772220876645999
+              },
+              "path_energy": {
+                "observed": 110.81030121342677,
+                "percentile": 0.975,
+                "random_mean": 122.58686968215457,
+                "random_std": 5.924021537082741
+              },
+              "path_length": {
+                "observed": 34.73128736708716,
+                "percentile": 0.971,
+                "random_mean": 36.5017820468166,
+                "random_std": 0.9182460111153743
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.30000000000000004,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.10240977098976674,
+              "edge_lengths": [
+                2.6841208391170306,
+                3.408712680172585,
+                2.806251293501584,
+                3.5821876307951697,
+                3.2443890526228634,
+                2.9217180940194005,
+                3.3442379337974093,
+                2.66957299152103,
+                3.372866764236755,
+                3.1209750175876203,
+                3.576255069715717
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.1,
+                0.1,
+                0.4,
+                0.5,
+                0.3,
+                0.3,
+                0.1,
+                0.9,
+                0.0,
+                0.6
+              ],
+              "edge_ranks": [
+                1.0,
+                2.0,
+                2.0,
+                5.0,
+                6.0,
+                4.0,
+                4.0,
+                2.0,
+                10.0,
+                1.0,
+                7.0
+              ],
+              "mean_edge_rank": 4.0,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 110.81030121342677,
+              "path_length": 34.73128736708716
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.636363636363637,
+                "percentile": 0.975,
+                "random_mean": 5.971636363636364,
+                "random_std": 0.6562645102685476
+              },
+              "path_energy": {
+                "observed": 8117.248445848514,
+                "percentile": 0.968,
+                "random_mean": 9059.402748318367,
+                "random_std": 510.9588261871815
+              },
+              "path_length": {
+                "observed": 296.7974652556162,
+                "percentile": 0.956,
+                "random_mean": 311.8750527577142,
+                "random_std": 8.661985898583882
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.3636363636363636,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.11676451186343491,
+              "edge_lengths": [
+                24.143564041979513,
+                29.665159448950035,
+                23.85045863844648,
+                32.77858715143296,
+                29.69638424213375,
+                27.294013605588702,
+                29.009483130963858,
+                21.30925431893216,
+                28.13020991564231,
+                26.09747652964505,
+                24.822874231901398
+              ],
+              "edge_rank_percentiles": [
+                0.2,
+                0.1,
+                0.2,
+                0.9,
+                0.5,
+                0.5,
+                0.2,
+                0.2,
+                0.9,
+                0.0,
+                0.3
+              ],
+              "edge_ranks": [
+                3.0,
+                2.0,
+                3.0,
+                10.0,
+                6.0,
+                6.0,
+                3.0,
+                3.0,
+                10.0,
+                1.0,
+                4.0
+              ],
+              "mean_edge_rank": 4.636363636363637,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 8117.248445848514,
+              "path_length": 296.7974652556162
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "5": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.727272727272727,
+                "percentile": 0.999,
+                "random_mean": 6.021636363636364,
+                "random_std": 0.7204988859311992
+              },
+              "path_energy": {
+                "observed": 129.6405423197546,
+                "percentile": 0.979,
+                "random_mean": 144.84599730713214,
+                "random_std": 7.100406376992785
+              },
+              "path_length": {
+                "observed": 37.56599148443008,
+                "percentile": 0.974,
+                "random_mean": 39.6391248362248,
+                "random_std": 1.0091352884776303
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.2727272727272727,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.1025545670251209,
+              "edge_lengths": [
+                2.9400106284281904,
+                3.7539372468899397,
+                3.0770003876493917,
+                3.9254005114837613,
+                3.479353117966221,
+                3.1545453533626526,
+                3.572988214739572,
+                2.8152324558354507,
+                3.6202548560301118,
+                3.4457808483080394,
+                3.7814878637367517
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.1,
+                0.1,
+                0.4,
+                0.4,
+                0.3,
+                0.3,
+                0.1,
+                0.8,
+                0.0,
+                0.5
+              ],
+              "edge_ranks": [
+                1.0,
+                2.0,
+                2.0,
+                5.0,
+                5.0,
+                4.0,
+                4.0,
+                2.0,
+                9.0,
+                1.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.727272727272727,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 129.6405423197546,
+              "path_length": 37.56599148443008
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.909090909090909,
+                "percentile": 0.967,
+                "random_mean": 5.994545454545454,
+                "random_std": 0.6107467316719214
+              },
+              "path_energy": {
+                "observed": 65058.02467840511,
+                "percentile": 0.922,
+                "random_mean": 72401.17023642128,
+                "random_std": 5294.077428361279
+              },
+              "path_length": {
+                "observed": 835.8058363466931,
+                "percentile": 0.882,
+                "random_mean": 871.2869946800743,
+                "random_std": 29.751391628557634
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.390909090909091,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.156304546010889,
+              "edge_lengths": [
+                66.22516348187666,
+                83.07390343551992,
+                62.46278791657222,
+                89.00565695133243,
+                71.41164713570443,
+                83.13408687252168,
+                90.74250454577155,
+                51.06302697908422,
+                86.32629122645704,
+                80.40573493795601,
+                71.95503286389676
+              ],
+              "edge_rank_percentiles": [
+                0.2,
+                0.1,
+                0.3,
+                0.8,
+                0.4,
+                0.8,
+                0.3,
+                0.0,
+                0.9,
+                0.1,
+                0.4
+              ],
+              "edge_ranks": [
+                3.0,
+                2.0,
+                4.0,
+                9.0,
+                5.0,
+                9.0,
+                4.0,
+                1.0,
+                10.0,
+                2.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.909090909090909,
+              "ordering": [
+                "dog",
+                "cat",
+                "horse",
+                "cow",
+                "eagle",
+                "shark",
+                "salmon",
+                "snake",
+                "frog",
+                "bee",
+                "spider",
+                "whale"
+              ],
+              "path_energy": 65058.02467840511,
+              "path_length": 835.8058363466931
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    }
+  },
+  "num_random": 1000,
+  "prompt_family": "neutral",
+  "summary_table": [
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 4.454545454545454,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.952,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 4.636363636363637,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.968,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 4.181818181818182,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.953,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 5.363636363636363,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.921,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 4.181818181818182,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.97,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 4.7272727272727275,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.873,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 4.2727272727272725,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.971,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 4.090909090909091,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.978,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 4.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.975,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 4.636363636363637,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.968,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 3.727272727272727,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.979,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 4.909090909090909,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.922,
+      "space": "centroid"
+    }
+  ]
+}

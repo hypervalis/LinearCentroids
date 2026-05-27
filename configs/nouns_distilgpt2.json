@@ -1,0 +1,42 @@
+{
+  "experiment": "nouns_distilgpt2",
+  "model_name": "distilgpt2",
+  "concept_sequence": "nouns",
+  "geometry_kind": "linear",
+  "prompt_family": "neutral",
+  "prompt_templates": [
+    "The noun is {value}",
+    "The word is {value}",
+    "The object is {value}",
+    "The thing is {value}",
+    "The name is {value}"
+  ],
+  "hook": {
+    "block": "transformer.h.{layer}",
+    "activation_site": "ln_2",
+    "activation_description": "pre-MLP LayerNorm output at selected token",
+    "centroid_description": "grad sum(mlp(ln_2_output)) w.r.t. ln_2_output",
+    "layers": [0, 1, 2, 3, 4, 5],
+    "token_position": "final",
+    "tokenizer_audit": true
+  },
+  "representations": {
+    "activation": "ln_2_output_at_token",
+    "centroid": "mlp_local_centroid_wrt_ln_2"
+  },
+  "device": "cuda_if_available",
+  "geometry": {
+    "pca_components": 3,
+    "on": "template_mean_trajectories"
+  },
+  "topology": {
+    "num_random": 1000,
+    "orderings": ["list_order"]
+  },
+  "output": {
+    "raw_dir": "results/raw/nouns_distilgpt2",
+    "geometry_dir": "results/geometry/nouns_distilgpt2",
+    "metrics_dir": "results/metrics/nouns_distilgpt2",
+    "plots_dir": "results/plots/nouns_distilgpt2"
+  }
+}

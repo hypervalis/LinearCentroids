@@ -1,0 +1,48 @@
+{
+  "experiment": "colours_distilgpt2",
+  "model_name": "distilgpt2",
+  "concept_sequence": "colours",
+  "geometry_kind": "linear",
+  "prompt_family": "neutral",
+  "prompt_templates": [
+    "The colour is {value}",
+    "The object is {value}",
+    "The paint is {value}",
+    "The card is {value}",
+    "The word is {value}"
+  ],
+  "hook": {
+    "block": "transformer.h.{layer}",
+    "activation_site": "ln_2",
+    "activation_description": "pre-MLP LayerNorm output at selected token",
+    "centroid_description": "grad sum(mlp(ln_2_output)) w.r.t. ln_2_output",
+    "layers": [0, 1, 2, 3, 4, 5],
+    "token_position": "final",
+    "tokenizer_audit": true
+  },
+  "representations": {
+    "activation": "ln_2_output_at_token",
+    "centroid": "mlp_local_centroid_wrt_ln_2"
+  },
+  "device": "cuda_if_available",
+  "geometry": {
+    "pca_components": 3,
+    "on": "template_mean_trajectories"
+  },
+  "topology": {
+    "num_random": 1000,
+    "orderings": [
+      "roygbiv",
+      "hue_wheel_approx",
+      "basic_colours",
+      "warm_to_cool",
+      "light_to_dark_approx"
+    ]
+  },
+  "output": {
+    "raw_dir": "results/raw/colours_distilgpt2",
+    "geometry_dir": "results/geometry/colours_distilgpt2",
+    "metrics_dir": "results/metrics/colours_distilgpt2",
+    "plots_dir": "results/plots/colours_distilgpt2"
+  }
+}

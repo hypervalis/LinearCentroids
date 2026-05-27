@@ -1,0 +1,993 @@
+{
+  "experiment": "nouns_distilgpt2",
+  "layers": {
+    "0": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5,
+                "percentile": 0.535,
+                "random_mean": 3.5045,
+                "random_std": 0.5854312513011242
+              },
+              "path_energy": {
+                "observed": 106.01730682331402,
+                "percentile": 0.284,
+                "random_mean": 104.57213026713217,
+                "random_std": 2.843838836535463
+              },
+              "path_length": {
+                "observed": 25.208351111208845,
+                "percentile": 0.277,
+                "random_mean": 25.023706595958927,
+                "random_std": 0.34160921971822045
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.031806720674588375,
+              "edge_lengths": [
+                4.067129416562941,
+                3.982673084548681,
+                4.284853783183335,
+                4.351957369723109,
+                4.308674052890409,
+                4.21306340430037
+              ],
+              "edge_rank_percentiles": [
+                0.2,
+                0.4,
+                0.6,
+                1.0,
+                0.4,
+                0.4
+              ],
+              "edge_ranks": [
+                2.0,
+                3.0,
+                4.0,
+                6.0,
+                3.0,
+                3.0
+              ],
+              "mean_edge_rank": 3.5,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 106.01730682331402,
+              "path_length": 25.208351111208845
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.333333333333333,
+                "percentile": 0.075,
+                "random_mean": 3.4875,
+                "random_std": 0.5454196905951314
+              },
+              "path_energy": {
+                "observed": 7698.752643293385,
+                "percentile": 0.135,
+                "random_mean": 7404.040632038486,
+                "random_std": 263.15252701009507
+              },
+              "path_length": {
+                "observed": 214.21625006629733,
+                "percentile": 0.156,
+                "random_mean": 210.33336233752416,
+                "random_std": 3.7083204278952255
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.6666666666666666,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.08138099376326878,
+              "edge_lengths": [
+                32.173079171437024,
+                33.011633050172115,
+                34.72670354857433,
+                35.25588983310181,
+                38.98216897222364,
+                40.06677549078841
+              ],
+              "edge_rank_percentiles": [
+                0.2,
+                0.4,
+                0.4,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "edge_ranks": [
+                2.0,
+                3.0,
+                3.0,
+                6.0,
+                6.0,
+                6.0
+              ],
+              "mean_edge_rank": 4.333333333333333,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 7698.752643293385,
+              "path_length": 214.21625006629733
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "1": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.166666666666667,
+                "percentile": 0.153,
+                "random_mean": 3.4891666666666667,
+                "random_std": 0.6014975524102784
+              },
+              "path_energy": {
+                "observed": 146.24473992029016,
+                "percentile": 0.298,
+                "random_mean": 143.71090905244156,
+                "random_std": 4.907271596991907
+              },
+              "path_length": {
+                "observed": 29.609321335812844,
+                "percentile": 0.284,
+                "random_mean": 29.32162669024636,
+                "random_std": 0.5015942917519662
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.6333333333333333,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.02937544782816548,
+              "edge_lengths": [
+                4.99419263440811,
+                4.731958091632047,
+                4.85657117671739,
+                4.866556309017921,
+                4.960731107165603,
+                5.199312016871772
+              ],
+              "edge_rank_percentiles": [
+                0.6,
+                0.4,
+                0.2,
+                1.0,
+                0.8,
+                0.8
+              ],
+              "edge_ranks": [
+                4.0,
+                3.0,
+                2.0,
+                6.0,
+                5.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.166666666666667,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 146.24473992029016,
+              "path_length": 29.609321335812844
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.0,
+                "percentile": 0.867,
+                "random_mean": 3.482166666666667,
+                "random_std": 0.49580324838701
+              },
+              "path_energy": {
+                "observed": 9127.633928379106,
+                "percentile": 0.703,
+                "random_mean": 10082.505613877982,
+                "random_std": 1578.054653000613
+              },
+              "path_length": {
+                "observed": 227.7132311024469,
+                "percentile": 0.718,
+                "random_mean": 237.0674405822889,
+                "random_std": 15.441890159963513
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.39999999999999997,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.2369975208315797,
+              "edge_lengths": [
+                30.6323044725688,
+                31.367723117368694,
+                29.970274561243166,
+                47.10574457743161,
+                35.37661138901982,
+                53.26057298481483
+              ],
+              "edge_rank_percentiles": [
+                0.0,
+                0.4,
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "edge_ranks": [
+                1.0,
+                3.0,
+                1.0,
+                6.0,
+                1.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.0,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 9127.633928379106,
+              "path_length": 227.7132311024469
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "2": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.166666666666667,
+                "percentile": 0.168,
+                "random_mean": 3.468,
+                "random_std": 0.6375111328003963
+              },
+              "path_energy": {
+                "observed": 153.69863397147589,
+                "percentile": 0.211,
+                "random_mean": 149.34245595980906,
+                "random_std": 5.271766076306096
+              },
+              "path_length": {
+                "observed": 30.346107002033435,
+                "percentile": 0.193,
+                "random_mean": 29.894428651620277,
+                "random_std": 0.5243751037740689
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.6333333333333333,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.0376531253186102,
+              "edge_lengths": [
+                5.101481147863804,
+                4.807096053236935,
+                4.930947855713111,
+                5.080645349398877,
+                5.00312224451277,
+                5.422814351307937
+              ],
+              "edge_rank_percentiles": [
+                0.8,
+                0.2,
+                0.4,
+                1.0,
+                0.6,
+                0.8
+              ],
+              "edge_ranks": [
+                5.0,
+                2.0,
+                3.0,
+                6.0,
+                4.0,
+                5.0
+              ],
+              "mean_edge_rank": 4.166666666666667,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 153.69863397147589,
+              "path_length": 30.346107002033435
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.8333333333333335,
+                "percentile": 0.328,
+                "random_mean": 3.5086666666666666,
+                "random_std": 0.5078083628036597
+              },
+              "path_energy": {
+                "observed": 5382.206161947168,
+                "percentile": 0.354,
+                "random_mean": 5194.272114483044,
+                "random_std": 459.26392657366273
+              },
+              "path_length": {
+                "observed": 176.36993708928642,
+                "percentile": 0.375,
+                "random_mean": 173.9930551307139,
+                "random_std": 7.1607254745691336
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5666666666666668,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.19533463701099135,
+              "edge_lengths": [
+                29.216381202470117,
+                23.442514034613314,
+                24.91448848613585,
+                26.76754232295856,
+                31.1290427668722,
+                40.8999682762364
+              ],
+              "edge_rank_percentiles": [
+                0.6,
+                0.2,
+                0.4,
+                0.4,
+                0.8,
+                1.0
+              ],
+              "edge_ranks": [
+                4.0,
+                2.0,
+                3.0,
+                3.0,
+                5.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.8333333333333335,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 5382.206161947168,
+              "path_length": 176.36993708928642
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "3": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.333333333333333,
+                "percentile": 0.112,
+                "random_mean": 3.5148333333333337,
+                "random_std": 0.6032568782128482
+              },
+              "path_energy": {
+                "observed": 127.87670797100833,
+                "percentile": 0.257,
+                "random_mean": 124.5442626787701,
+                "random_std": 4.892486822821601
+              },
+              "path_length": {
+                "observed": 27.668834075558436,
+                "percentile": 0.246,
+                "random_mean": 27.281648534693552,
+                "random_std": 0.5364012982397317
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.6666666666666666,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.04706577957943539,
+              "edge_lengths": [
+                4.57795886309468,
+                4.309999864742577,
+                4.474435195372364,
+                4.641216798868892,
+                4.641343727616783,
+                5.02387962586314
+              ],
+              "edge_rank_percentiles": [
+                0.8,
+                0.2,
+                0.2,
+                1.0,
+                0.8,
+                1.0
+              ],
+              "edge_ranks": [
+                5.0,
+                2.0,
+                2.0,
+                6.0,
+                5.0,
+                6.0
+              ],
+              "mean_edge_rank": 4.333333333333333,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 127.87670797100833,
+              "path_length": 27.668834075558436
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.8333333333333335,
+                "percentile": 0.324,
+                "random_mean": 3.479666666666667,
+                "random_std": 0.5785786223342704
+              },
+              "path_energy": {
+                "observed": 5238.421698661374,
+                "percentile": 0.495,
+                "random_mean": 5241.941789509177,
+                "random_std": 284.524857408199
+              },
+              "path_length": {
+                "observed": 176.74225867933308,
+                "percentile": 0.467,
+                "random_mean": 176.61397812829378,
+                "random_std": 4.68434920300705
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5666666666666668,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.07854258249265958,
+              "edge_lengths": [
+                30.52347390681649,
+                27.852767984042583,
+                26.300167316859774,
+                28.96629295524956,
+                29.377151943874036,
+                33.722404572490625
+              ],
+              "edge_rank_percentiles": [
+                0.8,
+                0.4,
+                0.0,
+                1.0,
+                0.2,
+                1.0
+              ],
+              "edge_ranks": [
+                5.0,
+                3.0,
+                1.0,
+                6.0,
+                2.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.8333333333333335,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 5238.421698661374,
+              "path_length": 176.74225867933308
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "4": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 4.0,
+                "percentile": 0.229,
+                "random_mean": 3.4756666666666667,
+                "random_std": 0.5765482537384785
+              },
+              "path_energy": {
+                "observed": 95.54317297257307,
+                "percentile": 0.275,
+                "random_mean": 93.65883297369757,
+                "random_std": 3.512612168362271
+              },
+              "path_length": {
+                "observed": 23.913451188698538,
+                "percentile": 0.258,
+                "random_mean": 23.652150284613526,
+                "random_std": 0.4440478427886272
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.6,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.04958307140163468,
+              "edge_lengths": [
+                3.989727572276777,
+                3.7355969197690126,
+                3.8174624767714316,
+                3.9867752213079393,
+                4.021110182466123,
+                4.362778816107255
+              ],
+              "edge_rank_percentiles": [
+                0.6,
+                0.2,
+                0.2,
+                1.0,
+                0.6,
+                1.0
+              ],
+              "edge_ranks": [
+                4.0,
+                2.0,
+                2.0,
+                6.0,
+                4.0,
+                6.0
+              ],
+              "mean_edge_rank": 4.0,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 95.54317297257307,
+              "path_length": 23.913451188698538
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.5,
+                "percentile": 0.594,
+                "random_mean": 3.5155,
+                "random_std": 0.5057544144916363
+              },
+              "path_energy": {
+                "observed": 7782.02306549973,
+                "percentile": 0.396,
+                "random_mean": 7682.886057908468,
+                "random_std": 396.49818237355225
+              },
+              "path_length": {
+                "observed": 215.08535763279247,
+                "percentile": 0.391,
+                "random_mean": 213.64614173390197,
+                "random_std": 5.4418112524516475
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.09645818173332682,
+              "edge_lengths": [
+                34.706338777162294,
+                30.922514873810776,
+                32.379097794402234,
+                40.54564990143521,
+                37.82962818835603,
+                38.70212809762591
+              ],
+              "edge_rank_percentiles": [
+                0.4,
+                0.2,
+                0.2,
+                1.0,
+                0.2,
+                1.0
+              ],
+              "edge_ranks": [
+                3.0,
+                2.0,
+                2.0,
+                6.0,
+                2.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.5,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 7782.02306549973,
+              "path_length": 215.08535763279247
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    },
+    "5": {
+      "activation": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.8333333333333335,
+                "percentile": 0.31,
+                "random_mean": 3.501333333333333,
+                "random_std": 0.5133748900927837
+              },
+              "path_energy": {
+                "observed": 103.48557116587187,
+                "percentile": 0.486,
+                "random_mean": 103.30524756009156,
+                "random_std": 4.289626113134088
+              },
+              "path_length": {
+                "observed": 24.861018640487416,
+                "percentile": 0.474,
+                "random_mean": 24.815544321166694,
+                "random_std": 0.5152878322971526
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.5666666666666667,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.06782396792284427,
+              "edge_lengths": [
+                4.242307660227576,
+                3.8819784897166656,
+                3.84341966693352,
+                4.0587397360268245,
+                4.144746559268502,
+                4.689826528314332
+              ],
+              "edge_rank_percentiles": [
+                0.6,
+                0.2,
+                0.0,
+                1.0,
+                0.6,
+                1.0
+              ],
+              "edge_ranks": [
+                4.0,
+                2.0,
+                1.0,
+                6.0,
+                4.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.8333333333333335,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 103.48557116587187,
+              "path_length": 24.861018640487416
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      },
+      "centroid": {
+        "list_order": {
+          "non_cyclic": {
+            "baseline": {
+              "mean_edge_rank": {
+                "observed": 3.3333333333333335,
+                "percentile": 0.704,
+                "random_mean": 3.505666666666667,
+                "random_std": 0.4296265820453851
+              },
+              "path_energy": {
+                "observed": 43582.65278299014,
+                "percentile": 0.672,
+                "random_mean": 44796.44165949279,
+                "random_std": 2568.1965358692914
+              },
+              "path_length": {
+                "observed": 509.77263078851445,
+                "percentile": 0.624,
+                "random_mean": 514.3158777582223,
+                "random_std": 14.255853061936275
+              }
+            },
+            "metrics": {
+              "adjacent_edge_percentile": 0.4666666666666666,
+              "closure_edge_length": null,
+              "closure_to_edge_ratio": null,
+              "closure_to_path_ratio": null,
+              "cyclic": false,
+              "edge_length_cv": 0.07914464805714874,
+              "edge_lengths": [
+                77.0957470183635,
+                85.65179297009867,
+                77.38922303195965,
+                86.75391847695604,
+                85.76510313458729,
+                97.11684615654931
+              ],
+              "edge_rank_percentiles": [
+                0.4,
+                0.4,
+                0.0,
+                0.8,
+                0.2,
+                1.0
+              ],
+              "edge_ranks": [
+                3.0,
+                3.0,
+                1.0,
+                5.0,
+                2.0,
+                6.0
+              ],
+              "mean_edge_rank": 3.3333333333333335,
+              "ordering": [
+                "hammer",
+                "river",
+                "cloud",
+                "ladder",
+                "pocket",
+                "mirror",
+                "onion"
+              ],
+              "path_energy": 43582.65278299014,
+              "path_length": 509.77263078851445
+            },
+            "mode": "non_cyclic"
+          }
+        }
+      }
+    }
+  },
+  "num_random": 1000,
+  "prompt_family": "neutral",
+  "summary_table": [
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 3.5,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.284,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 0,
+      "mean_edge_rank": 4.333333333333333,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.135,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 4.166666666666667,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.298,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 1,
+      "mean_edge_rank": 3.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.703,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 4.166666666666667,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.211,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 2,
+      "mean_edge_rank": 3.8333333333333335,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.354,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 4.333333333333333,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.257,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 3,
+      "mean_edge_rank": 3.8333333333333335,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.495,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 4.0,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.275,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 4,
+      "mean_edge_rank": 3.5,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.396,
+      "space": "centroid"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 3.8333333333333335,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.486,
+      "space": "activation"
+    },
+    {
+      "closure_to_edge_ratio": null,
+      "cyclic": false,
+      "layer": 5,
+      "mean_edge_rank": 3.3333333333333335,
+      "mode": "non_cyclic",
+      "ordering": "list_order",
+      "path_energy_percentile": 0.672,
+      "space": "centroid"
+    }
+  ]
+}
