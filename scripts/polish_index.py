@@ -96,7 +96,7 @@ PLOT_HEADING_INJECTIONS = [
         '<p class="section-lede">So we\'ve got a few different concepts here, and some interesting findings. Lets go through them one by one.</p><h2 id="months">Months</h2>',
     ),
     (
-        "<div>Moving on. We will look at colors now.",
+        "Moving on. We will look at colors now.",
         '<h2 id="colours">Colours</h2><div>Moving on. We will look at colors now.',
     ),
     (
