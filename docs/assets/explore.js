@@ -182,7 +182,7 @@
         p.set("mode", spec.mode);
       }
     }
-    if (pathVisible()) p.set("path", "1");
+    if (!pathVisible()) p.set("path", "0");
     if (current.get("edit") === "1") p.set("edit", "1");
     const next = `${location.pathname}?${p.toString()}`;
     history.replaceState(null, "", next);
@@ -197,7 +197,7 @@
     if (p.has("ordering")) setField("ordering", p.get("ordering"));
     if (p.has("mode")) setField("mode", p.get("mode"));
     const showPath = $("#show-path");
-    if (showPath) showPath.checked = p.get("path") === "1";
+    if (showPath) showPath.checked = p.get("path") !== "0";
   }
 
   function plotPath() {
