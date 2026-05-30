@@ -10,11 +10,13 @@ from typing import Any
 
 from lce.pipeline.paths import REPO_ROOT
 
-# Marker that immediately follows each editable block in docs/index.html.
+# Structural marker that immediately follows each editable block in
+# docs/index.html. These are stable anchors so the editor can be injected
+# locally without leaving edit-only markup in the deployed page.
 _EDITABLE_BOUNDARY: dict[str, str] = {
     "title": 'data-editable="header-copy"',
-    "header-copy": '<p class="meta-links edit-entry">',
-    "plot-copy": '<p class="meta-links edit-entry">',
+    "header-copy": "</header>",
+    "plot-copy": "<footer",
 }
 
 
@@ -44,13 +46,13 @@ def replace_editable_inner(html: str, editable_id: str, new_inner: str) -> str:
         close_start = html.rfind(close_tag, open_end, next_pos)
         if close_start == -1:
             raise ValueError(f"missing closing tag for {editable_id!r}")
-        close_end = close_start + len(close_tag)
-        return html[:open_end] + new_inner + html[close_end:]
+        # Keep the closing tag; only the inner content is replaced.
+        return html[:open_end] + new_inner + html[close_start:]
 
     # Generic depth-based fallback for other tags.
     depth = 1
     i = open_end
-    close_end = None
+    close_start = None
     open_needle = f"<{tag}"
     while i < len(html) and depth:
         next_open = html.find(open_needle, i)
@@ -64,12 +66,11 @@ def replace_editable_inner(html: str, editable_id: str, new_inner: str) -> str:
             depth -= 1
             if depth == 0:
                 close_start = next_close
-                close_end = next_close + len(close_tag)
                 break
             i = next_close + len(close_tag)
-    if close_end is None:
+    if close_start is None:
         raise ValueError(f"failed to close tag for {editable_id!r}")
-    return html[:open_end] + new_inner + html[close_end:]
+    return html[:open_end] + new_inner + html[close_start:]
 
 
 def apply_page_content(payload: dict[str, Any], *, index_path: Path | None = None) -> Path:

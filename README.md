@@ -75,20 +75,38 @@ Run extraction on a CUDA machine when possible. Configs live in `configs/`; outp
 
 ## GitHub Pages
 
-The site is published from the `docs/` folder via GitHub Actions (`.github/workflows/pages.yml`).
-
-After pushing to `main`, enable **Settings → Pages → Build and deployment → GitHub Actions** (if not already).
+GitHub Actions deploys `docs/` directly. The committed `docs/index.html` has **no editor markup**, so the live site never ships the editor.
 
 Live URL: **https://hypervalis.github.io/LinearCentroids/**
 
-Local preview with save support:
+### Editing page copy (local only)
+
+The WYSIWYG editor (`docs/assets/content-editor.js` / `.css`) is **git-ignored** and **injected only by the dev server**. It is never committed or deployed.
+
+You **must** use the dev server (not plain `http.server`, which cannot save):
 
 ```bash
 python scripts/dev_site.py
-# http://127.0.0.1:8765/index.html
+# http://127.0.0.1:8765/index.html?edit=1
 ```
 
-Plain `python -m http.server` does not support **Save to file** in the editor.
+- **Done** → writes `docs/index.html` directly (then `git commit` + `git push`)
+- **Save draft** → browser localStorage only (not persisted to disk)
+- **Export HTML** → JSON you can apply later with:
+
+```bash
+python scripts/apply_content_export.py my-export.json
+```
+
+Then commit and push:
+
+```bash
+git add docs/index.html && git commit -m "Update site copy" && git push
+```
+
+> Only changes written into `docs/index.html` reach GitHub Pages. Browser
+> drafts (localStorage) and anything served by plain `python -m http.server`
+> are **not** saved to disk and will not deploy.
 
 ## Key metrics
 

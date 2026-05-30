@@ -15,6 +15,11 @@ results/plots/**/*
 !results/**/.gitkeep
 
 .DS_Store
+build/
+
+# Local-only page editor (injected by scripts/dev_site.py; never deployed)
+docs/assets/content-editor.js
+docs/assets/content-editor.css
 
 # legacy layout
 src/
