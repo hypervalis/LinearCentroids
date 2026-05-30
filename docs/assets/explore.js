@@ -184,7 +184,8 @@
     }
     if (pathVisible()) p.set("path", "1");
     if (current.get("edit") === "1") p.set("edit", "1");
-    history.replaceState(null, "", `?${p.toString()}`);
+    const next = `${location.pathname}?${p.toString()}`;
+    history.replaceState(null, "", next);
   }
 
   function applyUrl() {

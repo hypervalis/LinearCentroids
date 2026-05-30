@@ -295,6 +295,41 @@
     return JSON.stringify(out, null, 2);
   }
 
+  function canSaveToFile() {
+    return (
+      location.hostname === "localhost" ||
+      location.hostname === "127.0.0.1" ||
+      location.hostname === "[::1]"
+    );
+  }
+
+  async function saveToFile(active) {
+    persistAll(active);
+    const json = exportJson(active);
+    const res = await fetch("/api/save-page-content", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: json,
+    });
+    if (!res.ok) {
+      let detail = `${res.status} ${res.statusText}`;
+      try {
+        const payload = await res.json();
+        if (payload.error) detail = payload.error;
+      } catch (_) {
+        /* ignore */
+      }
+      throw new Error(detail);
+    }
+    return res.json();
+  }
+
+  function leaveEditMode() {
+    const url = new URL(location.href);
+    url.searchParams.delete("edit");
+    location.href = `${url.pathname}${url.search}${url.hash}`;
+  }
+
   function editUrl(on) {
     const url = new URL(location.href);
     if (on) url.searchParams.set("edit", "1");
@@ -330,12 +365,13 @@
     bar.className = "content-editor-bar";
     bar.innerHTML = `
       <strong>Editing page text</strong>
-      <span class="hint">Link, Image (URL or upload), or paste an image. Save stores a browser draft; export copies HTML for the repo.</span>
+      <span class="hint">Save draft = this browser only. Save to file writes docs/index.html (dev server only). Export copies JSON for git.</span>
       <div class="editor-actions">
-        <button type="button" class="primary" data-action="save">Save draft</button>
+        <button type="button" data-action="save">Save draft</button>
+        <button type="button" class="primary" data-action="save-file">Save to file</button>
         <button type="button" data-action="export">Export HTML</button>
         <button type="button" data-action="reset">Reset drafts</button>
-        <a class="edit-page-link" href="${editUrl(false)}">Done</a>
+        <button type="button" data-action="done">Done</button>
       </div>
       <div class="content-export-panel hidden" id="content-export-panel">
         <textarea readonly id="content-export-text" aria-label="Exported HTML JSON"></textarea>
@@ -348,6 +384,26 @@
       persistAll(active);
       alert("Draft saved in this browser.");
     });
+
+    const saveFileBtn = bar.querySelector('[data-action="save-file"]');
+    if (!canSaveToFile()) {
+      saveFileBtn.disabled = true;
+      saveFileBtn.title = "Use scripts/dev_site.py on localhost to save into docs/index.html";
+    } else {
+      saveFileBtn.addEventListener("click", async () => {
+        saveFileBtn.disabled = true;
+        try {
+          const result = await saveToFile(active);
+          alert(`Saved ${result.path}`);
+        } catch (err) {
+          alert(
+            `Save failed: ${err.message}\n\nStart the dev server with:\npython scripts/dev_site.py`
+          );
+        } finally {
+          saveFileBtn.disabled = false;
+        }
+      });
+    }
 
     bar.querySelector('[data-action="export"]').addEventListener("click", () => {
       persistAll(active);
@@ -364,7 +420,12 @@
     bar.querySelector('[data-action="reset"]').addEventListener("click", () => {
       if (!confirm("Clear all local drafts for this page?")) return;
       clearDrafts();
-      location.href = editUrl(false);
+      leaveEditMode();
+    });
+
+    bar.querySelector('[data-action="done"]').addEventListener("click", () => {
+      persistAll(active);
+      leaveEditMode();
     });
   }
 
@@ -375,8 +436,16 @@
     setEditEntryVisible(false);
   }
 
+  function isProductionSite() {
+    return /github\.io$/i.test(location.hostname);
+  }
+
   function init() {
     if (!blocks().length) return;
+
+    if (isProductionSite()) {
+      document.querySelectorAll(".edit-entry").forEach((el) => el.remove());
+    }
 
     if (isEditMode()) {
       enableEditMode();

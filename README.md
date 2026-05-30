@@ -73,7 +73,22 @@ Equivalent thin wrappers live under `scripts/` (e.g. `python scripts/extract.py 
 
 Run extraction on a CUDA machine when possible. Configs live in `configs/`; outputs under `results/` and synced plots under `docs/experiments/<experiment>/`.
 
-Preview locally: `python -m http.server -d docs 8765` → http://localhost:8765/index.html
+## GitHub Pages
+
+The site is published from the `docs/` folder via GitHub Actions (`.github/workflows/pages.yml`).
+
+After pushing to `main`, enable **Settings → Pages → Build and deployment → GitHub Actions** (if not already).
+
+Live URL: **https://hypervalis.github.io/LinearCentroids/**
+
+Local preview with save support:
+
+```bash
+python scripts/dev_site.py
+# http://127.0.0.1:8765/index.html
+```
+
+Plain `python -m http.server` does not support **Save to file** in the editor.
 
 ## Key metrics
 
