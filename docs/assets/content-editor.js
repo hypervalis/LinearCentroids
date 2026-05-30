@@ -280,16 +280,19 @@
     return { el, toolbar, id };
   }
 
-  function persistAll(active) {
-    active.forEach(({ el, id }) => {
-      const html = el.innerHTML;
-      saveDraft(id, html);
+  function currentBlocks() {
+    return blocks().map((el) => ({ el, id: blockId(el) }));
+  }
+
+  function persistAll() {
+    currentBlocks().forEach(({ el, id }) => {
+      saveDraft(id, el.innerHTML);
     });
   }
 
-  function exportJson(active) {
+  function exportJson() {
     const out = { page: pageId, blocks: {} };
-    active.forEach(({ el, id }) => {
+    currentBlocks().forEach(({ el, id }) => {
       out.blocks[id] = el.innerHTML;
     });
     return JSON.stringify(out, null, 2);
@@ -303,9 +306,9 @@
     );
   }
 
-  async function saveToFile(active) {
-    persistAll(active);
-    const json = exportJson(active);
+  async function saveToFile() {
+    persistAll();
+    const json = exportJson();
     const res = await fetch("/api/save-page-content", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -365,7 +368,7 @@
     bar.className = "content-editor-bar";
     bar.innerHTML = `
       <strong>Editing page text</strong>
-      <span class="hint">Save draft = this browser only. Save to file writes docs/index.html (dev server only). Export copies JSON for git.</span>
+      <span class="hint">Done saves all blocks in this browser only. Use Save to file (dev server) to write docs/index.html.</span>
       <div class="editor-actions">
         <button type="button" data-action="save">Save draft</button>
         <button type="button" class="primary" data-action="save-file">Save to file</button>
@@ -381,7 +384,7 @@
     $("main").insertBefore(bar, $("main").firstChild);
 
     bar.querySelector('[data-action="save"]').addEventListener("click", () => {
-      persistAll(active);
+      persistAll();
       alert("Draft saved in this browser.");
     });
 
@@ -393,7 +396,7 @@
       saveFileBtn.addEventListener("click", async () => {
         saveFileBtn.disabled = true;
         try {
-          const result = await saveToFile(active);
+          const result = await saveToFile();
           alert(`Saved ${result.path}`);
         } catch (err) {
           alert(
@@ -406,8 +409,8 @@
     }
 
     bar.querySelector('[data-action="export"]').addEventListener("click", () => {
-      persistAll(active);
-      const json = exportJson(active);
+      persistAll();
+      const json = exportJson();
       const panel = $("#content-export-panel");
       const ta = $("#content-export-text");
       panel.classList.remove("hidden");
@@ -424,7 +427,7 @@
     });
 
     bar.querySelector('[data-action="done"]').addEventListener("click", () => {
-      persistAll(active);
+      persistAll();
       leaveEditMode();
     });
   }
